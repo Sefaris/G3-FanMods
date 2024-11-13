@@ -5,7 +5,7 @@ const STRINGTABLE = 'stringtable.ini';
 const READMEPL = 'ReadmePL.rtf';
 const READMERU = 'ReadmeRU.rtf';
 const OUTPUT_DIR = path.resolve('D:\\Repos\\UnionMods');
-const INPUT_DIR = path.resolve('C:\\Users\\Komputeriusz\\Desktop\\Union+ v1.4 FullBeta\\Mods');
+const INPUT_DIR = path.resolve('C:\\Users\\Komputeriusz\\Desktop\\Union+ v1.4 Full\\Mods');
 
 function searchAndCopyFiles(baseDir, outputDir) {
     if (!fs.existsSync(outputDir)) {
