@@ -1,0 +1,8 @@
+{
+  "id": "ItemLocator",
+  "title": "ItemLocator",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": ["fyryny"]
+}

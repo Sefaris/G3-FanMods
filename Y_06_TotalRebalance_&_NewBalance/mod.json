@@ -1,0 +1,15 @@
+{
+  "id": "TotalRebalance & NewBalance",
+  "title": "TotalRebalance & NewBalance",
+  "category": "Balance",
+  "dependencies": [
+    "New Balance and Combat",
+    "TotalRebalance"
+  ],
+  "incompatibles": [
+    "TotalRebalance_&_OrcLite",
+    "TotalRebalance_&_WolfModel",
+    "CombatAnimationOverhaul_2H_ForTotalRebalance"
+  ],
+  "authors": ["Zliden", "Jackydima"]
+}

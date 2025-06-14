@@ -1,0 +1,10 @@
+{
+  "id": "CM Graphic G2",
+  "title": "CM Graphic G2",
+  "category": "Textures/Models",
+  "dependencies": [
+    "ContentModBase"
+  ],
+  "incompatibles": [],
+  "authors": ["Joey1990","Mordrak"]
+}

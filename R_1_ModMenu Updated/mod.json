@@ -1,0 +1,20 @@
+{
+  "id": "Menu Updated",
+  "title": "Menu Updated",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu Elder",
+    "Menu CM",
+    "Menu Arcania",
+    "Menu Dark",
+    "Menu Old",
+    "Menu QP",
+    "Compas Returning",
+    "Clear Dialog Box",
+    "Immersive World Updated MenuDark",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": ["Mechanic"]
+}

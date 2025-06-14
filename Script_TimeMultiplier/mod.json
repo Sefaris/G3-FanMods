@@ -1,0 +1,8 @@
+{
+  "id": "TimeMultiplier",
+  "title": "TimeMultiplier",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": ["fyryny"]
+}

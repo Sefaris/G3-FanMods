@@ -1,0 +1,11 @@
+{
+  "id": "Balance Ultimate & Immersive World",
+  "title": "Balance Ultimate & Immersive World",
+  "category": "Balance",
+  "dependencies": [
+    "Balance Ultimate",
+    "Immersive World"
+  ],
+  "incompatibles": [],
+  "authors": ["iLoveHeavyMetal"]
+}

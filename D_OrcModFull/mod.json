@@ -1,0 +1,10 @@
+{
+  "id": "Orc Mod Full",
+  "title": "Orc Mod Full",
+  "category": "Textures/Models",
+  "dependencies": [],
+  "incompatibles": [
+    "Orc Mod Lite"
+  ],
+  "authors": ["Joey1990", "Mordrak"]
+}

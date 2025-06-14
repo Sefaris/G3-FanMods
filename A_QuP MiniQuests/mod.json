@@ -1,0 +1,10 @@
+{
+  "id": "QP Mini Quests",
+  "title": "QP Mini Quests",
+  "category": "Content",
+  "dependencies": [],
+  "incompatibles": [
+    "Achievements"
+  ],
+  "authors": ["Humanforce"]
+}

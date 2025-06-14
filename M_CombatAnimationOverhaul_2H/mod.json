@@ -1,0 +1,11 @@
+{
+  "id": "CombatAnimationOverhaul_2H",
+  "title": "CombatAnimationOverhaul_2H",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "Intuitive Combat System",
+    "FasterCombatMod"
+  ],
+  "authors": ["Beorn33"]
+}

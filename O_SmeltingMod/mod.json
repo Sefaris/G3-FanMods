@@ -1,0 +1,12 @@
+{
+  "id": "LTMSmeltingMod",
+  "title": "LTMSmeltingMod",
+  "category": "Content",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": ["Zliden"]
+}

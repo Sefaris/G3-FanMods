@@ -1,0 +1,8 @@
+{
+  "id": "ContentModBase",
+  "title": "ContentModBase",
+  "category": "Content",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": ["Joey1990","Mordrak"]
+}

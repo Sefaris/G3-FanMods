@@ -1,0 +1,11 @@
+{
+  "id": "Hero Head PreAlpha",
+  "title": "Hero Head PreAlpha",
+  "category": "Textures/Models",
+  "dependencies": [],
+  "incompatibles": [
+    "Head CM",
+    "Head Arcania"
+  ],
+  "authors": ["xRAZORx"]
+}

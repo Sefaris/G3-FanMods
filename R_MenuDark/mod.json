@@ -1,0 +1,20 @@
+{
+  "id": "Menu Dark",
+  "title": "Menu Dark",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu Elder",
+    "Menu CM",
+    "Menu Arcania",
+    "Menu Old",
+    "Menu QP",
+    "Menu Updated",
+    "Menu Ultimate",
+    "Compas Returning 2",
+    "Immersive World Updated MenuDark",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": ["Joey1990","Mordrak"]
+}

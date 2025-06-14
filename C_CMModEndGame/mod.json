@@ -1,0 +1,12 @@
+{
+  "id": "CM End Game",
+  "title": "CM End Game",
+  "category": "Content",
+  "dependencies": [
+    "CM Letters"
+  ],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": ["Joey1990", "Mordrak"]
+}

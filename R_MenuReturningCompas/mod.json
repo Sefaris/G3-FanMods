@@ -1,0 +1,16 @@
+{
+  "id": "Compas Returning",
+  "title": "Compas Returning",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu Elder",
+    "Menu Updated",
+    "Menu Ultimate",
+    "Compas Returning 2",
+    "Immersive World Updated MenuDark",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": ["Mac Hyder"]
+}

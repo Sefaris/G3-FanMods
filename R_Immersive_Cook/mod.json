@@ -1,0 +1,11 @@
+{
+  "id": "Immersive Cook",
+  "title": "Immersive Cook",
+  "category": "Gameplay",
+  "dependencies": [
+    "Main",
+    "Immersive World"
+  ],
+  "incompatibles": [],
+  "authors": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "Balance Ultimate",
+  "title": "Balance Ultimate",
+  "category": "Balance",
+  "dependencies": [
+    "CM Content",
+    "Main",
+    "G3Fixes"
+  ],
+  "incompatibles": [],
+  "authors": ["iLoveHeavyMetal"]
+}

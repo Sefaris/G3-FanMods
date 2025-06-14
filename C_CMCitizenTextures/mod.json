@@ -1,0 +1,10 @@
+{
+  "id": "CM Citizen Textures",
+  "title": "CM Citizen Textures",
+  "category": "Textures/Models",
+  "dependencies": [
+    "ContentModBase"
+  ],
+  "incompatibles": [],
+  "authors": ["Joey1990", "Mordrak"]
+}

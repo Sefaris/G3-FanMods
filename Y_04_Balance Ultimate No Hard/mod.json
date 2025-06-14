@@ -1,0 +1,13 @@
+{
+  "id": "Balance Ultimate No Hard",
+  "title": "Balance Ultimate No Hard",
+  "category": "Balance Mods/Balance Ultimate",
+  "dependencies": [
+    "New Balance and Combat",
+    "New Game Configuration"
+  ],
+  "incompatibles": [
+    "Simple Hard Mod"
+  ],
+  "authors": ["iLoveHeavyMetal"]
+}

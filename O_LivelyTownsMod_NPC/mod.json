@@ -1,0 +1,10 @@
+{
+  "id": "LTM_NPC",
+  "title": "LTM_NPC",
+  "category": "Content",
+  "dependencies": [
+    "LivelyTownsMod"
+  ],
+  "incompatibles": [],
+  "authors": ["Yuko"]
+}

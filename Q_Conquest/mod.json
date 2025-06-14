@@ -1,0 +1,10 @@
+{
+  "id": "Conquest",
+  "title": "Conquest",
+  "category": "Content",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": ["Zliden"]
+}

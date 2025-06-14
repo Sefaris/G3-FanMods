@@ -1,0 +1,10 @@
+{
+  "id": "RB_Mod",
+  "title": "RB_Mod",
+  "category": "Content",
+  "dependencies": [
+    "LivelyTownsMod"
+  ],
+  "incompatibles": [],
+  "authors": ["KapitanArmagedon"]
+}

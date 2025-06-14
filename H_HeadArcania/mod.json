@@ -1,0 +1,11 @@
+{
+  "id": "Head Arcania",
+  "title": "Head Arcania",
+  "category": "Textures/Models",
+  "dependencies": [],
+  "incompatibles": [
+    "Head CM",
+    "Hero Head PreAlpha"
+  ],
+  "authors": ["Joey1990","Mordrak"]
+}

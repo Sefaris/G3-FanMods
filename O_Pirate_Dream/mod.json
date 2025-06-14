@@ -1,0 +1,10 @@
+{
+  "id": "Pirate Dream",
+  "title": "Pirate Dream",
+  "category": "Story",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": ["Mac Hyder"]
+}

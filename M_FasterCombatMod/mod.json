@@ -1,0 +1,11 @@
+{
+  "id": "FasterCombatMod",
+  "title": "FasterCombatMod",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "Intuitive Combat System",
+    "CombatAnimationOverhaul_2H"
+  ],
+  "authors": ["Draczik"]
+}

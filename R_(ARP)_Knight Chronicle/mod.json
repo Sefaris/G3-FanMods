@@ -1,0 +1,10 @@
+{
+  "id": "Knight Chronicle",
+  "title": "Knight Chronicle",
+  "category": "Story",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": ["Tup4n"]
+}

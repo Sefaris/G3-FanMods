@@ -1,0 +1,12 @@
+{
+  "id": "LTM Easy",
+  "title": "LTM Easy",
+  "category": "Balance",
+  "dependencies": [
+    "LivelyTownsMod"
+  ],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": ["Zliden"]
+}

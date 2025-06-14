@@ -1,0 +1,12 @@
+{
+  "id": "TotalRebalance & NewBalanceDruid",
+  "title": "TotalRebalance & NewBalanceDruid",
+  "category": "Balance",
+  "dependencies": [
+    "New Balance and Combat",
+    "TotalRebalance",
+    "TotalRebalance & NewBalance"
+  ],
+  "incompatibles": [],
+  "authors": ["Zliden","Jackydima"]
+}

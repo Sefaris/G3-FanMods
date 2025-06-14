@@ -1,0 +1,10 @@
+{
+  "id": "Smart Sound Pack",
+  "title": "Smart Sound Pack",
+  "category": "Sounds",
+  "dependencies": [],
+  "incompatibles": [
+    "Old Monster Sound"
+  ],
+  "authors": ["Mac Hyder"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Menu QP",
+  "title": "Menu QP",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu Elder",
+    "Menu CM",
+    "Menu Arcania",
+    "Menu Dark",
+    "Menu Old",
+    "Menu Updated",
+    "Menu Ultimate",
+    "Compas Returning 2",
+    "Immersive World Updated MenuDark",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": ["|Lorn|"]
+}

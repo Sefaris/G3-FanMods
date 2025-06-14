@@ -1,0 +1,10 @@
+{
+  "id": "Learning Threshold Tweaks",
+  "title": "Learning Threshold Tweaks",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [
+    "Alternative Balance Uncapped"
+  ],
+  "authors": ["fyryny"]
+}

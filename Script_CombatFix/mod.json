@@ -1,0 +1,10 @@
+{
+  "id": "UpdatePack Combat Fix",
+  "title": "UpdatePack Combat Fix",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [
+    "New Balance and Combat"
+  ],
+  "authors": ["lionblaze"]
+}

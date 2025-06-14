@@ -1,0 +1,22 @@
+{
+  "id": "Immersive World Updated MenuDark",
+  "title": "Immersive World Updated MenuDark",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu Elder",
+    "Menu CM",
+    "Menu Arcania",
+    "Menu Dark",
+    "Menu Old",
+    "Menu QP",
+    "Compas Returning",
+    "Clear Dialog Box",
+    "Menu Updated",
+    "Menu Ultimate",
+    "Compas Returning 2",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": []
+}

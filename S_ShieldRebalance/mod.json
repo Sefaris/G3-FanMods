@@ -1,0 +1,10 @@
+{
+  "id": "ShieldRebalance",
+  "title": "ShieldRebalance",
+  "category": "Balance",
+  "dependencies": [
+    "New Balance and Combat"
+  ],
+  "incompatibles": [],
+  "authors": ["Zipperiusz"]
+}

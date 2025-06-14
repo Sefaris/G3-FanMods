@@ -1,0 +1,21 @@
+{
+  "id": "Menu Elder",
+  "title": "Menu Elder",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu CM",
+    "Menu Arcania",
+    "Menu Dark",
+    "Menu Old",
+    "Menu QP",
+    "Compas Returning",
+    "Menu Updated",
+    "Menu Ultimate",
+    "Compas Returning 2",
+    "Immersive World Updated MenuDark",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": ["Sandlurker"]
+}

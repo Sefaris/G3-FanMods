@@ -1,0 +1,10 @@
+{
+  "id": "LivelyTownsMod",
+  "title": "LivelyTownsMod",
+  "category": "Content",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": ["Yuko"]
+}

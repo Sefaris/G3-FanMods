@@ -1,0 +1,11 @@
+{
+  "id": "New Balance and Combat",
+  "title": "New Balance and Combat",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [
+    "2H_BlockingAbility",
+    "UpdatePack Combat Fix"
+  ],
+  "authors": ["Jackydima"]
+}

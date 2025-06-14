@@ -1,0 +1,10 @@
+{
+  "id": "CNQArenas",
+  "title": "CNQArenas",
+  "category": "Content",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": ["Zliden"]
+}

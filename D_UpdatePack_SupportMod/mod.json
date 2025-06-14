@@ -1,0 +1,8 @@
+{
+  "id": "UpdatePack_SupportMod",
+  "title": "UpdatePack_SupportMod",
+  "category": "Fixes",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": ["zandr"]
+}

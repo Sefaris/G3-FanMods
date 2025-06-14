@@ -1,0 +1,14 @@
+{
+  "id": "TotalRebalance_&_OrcLite",
+  "title": "TotalRebalance_&_OrcLite",
+  "category": "Balance",
+  "dependencies": [
+    "TotalRebalance",
+    "Orc Mod Lite"
+  ],
+  "incompatibles": [
+    "TotalRebalance_&_NewBalance_&_OrcLite",
+    "TotalRebalance & NewBalance"
+  ],
+  "authors": ["Zliden"]
+}

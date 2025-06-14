@@ -1,0 +1,13 @@
+{
+  "id": "Autumn Textures",
+  "title": "Autumn Textures",
+  "category": "Texture packs",
+  "dependencies": [],
+  "incompatibles": [
+    "Smart Texture Pack",
+    "World Texture Mix",
+    "G3 Retextured Final",
+    "Myrtana Tekstures Pack"
+  ],
+  "authors": ["Kamredes Team"]
+}

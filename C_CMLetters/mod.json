@@ -1,0 +1,10 @@
+{
+  "id": "CM Letters",
+  "title": "CM Letters",
+  "category": "Content",
+  "dependencies": [
+    "CM Content"
+  ],
+  "incompatibles": [],
+  "authors": ["Joey1990", "Mordrak"]
+}

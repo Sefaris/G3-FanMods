@@ -1,0 +1,10 @@
+{
+  "id": "Better Sound Effects",
+  "title": "Better Sound Effects",
+  "category": "Sounds",
+  "dependencies": [],
+  "incompatibles": [
+    "Old Monster Sound"
+  ],
+  "authors": ["boesh33"]
+}

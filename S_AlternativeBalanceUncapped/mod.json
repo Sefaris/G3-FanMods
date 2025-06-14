@@ -1,0 +1,11 @@
+{
+  "id": "Alternative Balance Uncapped",
+  "title": "Alternative Balance Uncapped",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [
+    "Learning Threshold Tweaks",
+    "TotalRebalance"
+  ],
+  "authors": ["X-Proxy"]
+}

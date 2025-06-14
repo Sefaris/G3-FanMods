@@ -1,0 +1,14 @@
+{
+  "id": "TotalRebalance_&_WolfModel",
+  "title": "TotalRebalance_&_WolfModel",
+  "category": "Balance",
+  "dependencies": [
+    "TotalRebalance",
+    "Wolf Model"
+  ],
+  "incompatibles": [
+    "TotalRebalance_&_NewBalance_&_WolfModel",
+    "TotalRebalance & NewBalance"
+  ],
+  "authors": ["Zliden"]
+}

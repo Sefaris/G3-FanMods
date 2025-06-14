@@ -1,0 +1,10 @@
+{
+  "id": "EnchantStones",
+  "title": "EnchantStones",
+  "category": "Content",
+  "dependencies": [
+    "G3Fixes"
+  ],
+  "incompatibles": [],
+  "authors": ["Zipperiusz"]
+}
