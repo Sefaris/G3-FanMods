@@ -1,0 +1,1 @@
+This modification changes the textures of all Hashishin Armors, changing the purple color to yellow.

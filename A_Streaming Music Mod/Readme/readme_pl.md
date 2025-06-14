@@ -1,0 +1,2 @@
+Muzyka bezpieczna do streamowania
+Muzyka objęta prawami autorskimi, jest zastępowana przez ten mod inną muzyką z Gothic 3. Innymi słowy, YouTube nie będzie naliczać kar za naruszenie praw autorskich. A wykonawcy pasożytujący na muzyce z naszej ulubionej gry, nie będą mogli otrzymywać dochodów za oglądanie streamów i filmów.

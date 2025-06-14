@@ -1,0 +1,1 @@
+Ta modyfikacja przerabia wygląd cieniostworów, modele są zbliżone do Gothic 2. Pustynne cieniostwory wyglądają jak ogary.

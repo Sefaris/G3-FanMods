@@ -1,0 +1,1 @@
+Dodaje więcej możliwych rodzajów mięsa do pieczenia przy ognisku.

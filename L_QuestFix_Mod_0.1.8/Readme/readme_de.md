@@ -1,0 +1,1 @@
+Die Mod behebt einige Bugs und Logikfehler des Spiels von der v1.75, verbessert bestehende Inhalte, fügt einige Quests hinzu.

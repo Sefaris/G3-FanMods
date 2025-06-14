@@ -1,0 +1,1 @@
+Erweitert die Dauer von Untertiteln für stimmlose Dialoge. Die Dauer der Untertitelanzeige für stimmlose Dialoge kann in der Datei "Ini/subtitles.ini" konfiguriert werden.

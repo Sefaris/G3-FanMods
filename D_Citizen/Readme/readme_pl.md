@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia frakcję niektórych cywilów miast Myrtany (karczmarzy, kowali i myśliwych), tak aby walczyli przeciwko orkom, a nie odwrotnie.

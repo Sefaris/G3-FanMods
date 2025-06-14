@@ -1,0 +1,1 @@
+This modification reworks the appearance of almost all wolves in the game. Models are taken from Risen and Arcania. New appearance for regular wolves, wargs, hungry wolves and ice wolves, as well as the named wolves. Trophies on the walls have also been changed with the new model.

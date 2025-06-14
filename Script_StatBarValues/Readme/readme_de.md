@@ -1,0 +1,1 @@
+Zeigt den Wert / MaxWert von HP, MP, SP auf den jeweiligen Balken an.

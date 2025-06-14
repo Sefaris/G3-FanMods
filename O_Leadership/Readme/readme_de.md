@@ -1,0 +1,1 @@
+Fuegt dem Spiel 2 neue Fertigkeiten hinzu, die es euch ermoeglichen, 2 bzw. 3 Begleiter zu uebernehmen.

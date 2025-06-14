@@ -1,0 +1,1 @@
+Ten skrypt usuwa ograniczenie obrażeń zadawanych przez potwory w stronę NPC.

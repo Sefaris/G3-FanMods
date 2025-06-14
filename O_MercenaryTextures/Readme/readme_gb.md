@@ -1,0 +1,1 @@
+This modification changes the textures of all armors of the Orc mercenaries, replacing the blue color.

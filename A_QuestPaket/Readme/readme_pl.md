@@ -1,0 +1,1 @@
+Najstarszy z modów do Gothic 3. Dodaje ogromną ilość zadań z udziałem postaci z podstawowej gry. Dodaje nowe pancerze oparte na starych modelach. Drobne zmiany graficzne i rebalans.

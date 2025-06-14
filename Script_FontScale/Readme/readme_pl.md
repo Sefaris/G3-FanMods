@@ -1,0 +1,1 @@
+Zapobiega zmianie rozmiaru nazw w zależności od rozdzielczości gry, skalując rozmiar czcionki nazwy zgodnie z rozdzielczością renderowania.

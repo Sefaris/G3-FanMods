@@ -1,0 +1,1 @@
+The oldest of the major modifications for Gothic 3. Adds a huge number of quest chains involving vanilla game characters. Added new armors based on old models. Minor graphical changes and rebalance.

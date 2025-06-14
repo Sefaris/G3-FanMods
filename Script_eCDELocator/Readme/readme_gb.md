@@ -1,0 +1,1 @@
+This script shows icons on screen for all items, npcs and other objects near player

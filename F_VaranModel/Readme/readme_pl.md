@@ -1,0 +1,1 @@
+Ta modyfikacja przerabia wygląd jaszczurów i ognistych jaszczurów, model jest zbliżony do Gothic 2.

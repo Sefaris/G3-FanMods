@@ -1,0 +1,1 @@
+Minor correction of some lines in the game.

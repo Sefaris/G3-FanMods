@@ -1,0 +1,1 @@
+Dodaje możliwość blokowania za pomocą broni dwuręcznej ataków potworów oraz silnych ataków z góry (bronie dwuręczne, halabardy itp.)

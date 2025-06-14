@@ -1,0 +1,1 @@
+Die Anzahl der Lernpunkte, Lebenspunkte, Ausdauerpunkte und Manapunkte, die der Held mit jedem Levelaufstieg erhält, kann in der Datei Ini/learnpoints.ini konfiguriert werden.

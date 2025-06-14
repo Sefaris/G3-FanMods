@@ -1,0 +1,1 @@
+This modification adds achievements from the Quest Pack seperately.

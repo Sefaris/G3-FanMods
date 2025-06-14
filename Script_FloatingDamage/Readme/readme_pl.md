@@ -1,0 +1,1 @@
+Zadawane obrażenia są wyświetlane na ekranie.

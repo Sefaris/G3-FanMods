@@ -1,0 +1,1 @@
+Diese Aenderung macht alle Dialogfenster vollstaendig transparent. Kompatibel mit allen Interface-Modifikationen außer: MenuUpdated und MenuUltimate.

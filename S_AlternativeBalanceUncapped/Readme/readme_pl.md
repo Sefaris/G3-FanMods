@@ -1,0 +1,1 @@
+Ta modyfikacja usuwa podwojenie kosztu wzrostu siły, zręczności i prastarej wiedzy powyżej 250, wprowadzone przez alternatywny balans.

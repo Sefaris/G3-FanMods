@@ -1,0 +1,1 @@
+Przyspiesza upływ czasu w grze.

@@ -1,0 +1,1 @@
+Mod naprawia kilka błędów w misjach i błędów logicznych Gry v1.75, ulepsza istniejącą zawartość, dodaje kilka zadań.

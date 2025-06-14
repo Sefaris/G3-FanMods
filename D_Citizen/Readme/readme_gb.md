@@ -1,0 +1,1 @@
+This modification changes the faction of some peaceful inhabitants of Myrtanian cities (innkeepers, blacksmiths and hunters), thanks to which they will fight on your side against the orcs, and not against you.

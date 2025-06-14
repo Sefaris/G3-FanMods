@@ -1,0 +1,1 @@
+Podstawka Content Moda. Obszerne zmiany graficzne, nowe ciała i głowy postaci, wiele nowych receptur, pancerzy i innych zmian, a także rebalans.

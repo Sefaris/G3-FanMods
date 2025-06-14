@@ -1,0 +1,4 @@
+Wiadomość od autora:
+Witajcie moi przyjaciele! Mam nadzieję, że wszyscy jesteście zdrowi i szczęśliwi! Chciałbym opublikować ostateczną wersję! Ponieważ nie będę kontynuował prac, ale nie chcę też ukrywać przed wami obecnego stanu, publikuję go teraz! Wiele się wydarzyło w najnowszej wersji beta 0.8! Około 400 nowych tekstur! Ale mogę zrobić kilka zdjęć porównawczych. Chciałbym poinformować, że wraz z tym wydaniem żegnam się z modowaniem Gothica na dobre. Byłem członkiem od 25 listopada 2009 roku, odkąd skończyłem 15 lat. Dziś mam 30 lat i spędziłem bardzo miły czas w społeczności modderów. Dzięki wam wiele się nauczyłem i rozwinąłem w 2D! Dziękuję wszystkim! Chciałbym również dać wam pozwolenie na wykorzystanie mojej pracy w waszych modach, ale proszę o adnotacje o źródle! Dziękuję, drogi świecie Gothica :gratz
+
+Wątek na forum: https://worldofplayers.ru/threads/43535/

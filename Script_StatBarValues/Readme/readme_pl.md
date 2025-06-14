@@ -1,0 +1,1 @@
+Pokazuje wartość / maksymalną wartość HP, MP, SP na odpowiednich paskach.

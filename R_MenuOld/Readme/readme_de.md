@@ -1,0 +1,1 @@
+Diese Aenderung installiert dir feste Layout in alt. Fixed wurde Status-Bars, neu gestaltet Textur.

@@ -1,0 +1,1 @@
+Zabijanie chrząszczy, węży, królików i jaszczurek poprzez nadepnięcie na nie.

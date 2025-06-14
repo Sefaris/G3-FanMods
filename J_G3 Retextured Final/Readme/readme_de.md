@@ -1,0 +1,5 @@
+Nachricht für vom Autor:
+Hallo meine Freunde! Ich hoffe, Sie sind alle gesund und glücklich! Nun möchte ich meine finale Version veroeffentlichen! Da ich nicht weitermachen werde, ich aber auch meinen neuesten Status nicht vor euch verheimlichen möchte, veröffentliche ich ihn jetzt! In der neuesten Beta-Version 0.8 hat sich einiges getan! Ungefähr 400 neue Texturen für die neueste Version! Aber ich könnte ein paar Vergleichsfotos machen. Deshalb möchte ich Ihnen mitteilen, dass ich mich mit dieser Veröffentlichung endgültig vom Gothic-Modding verabschiede. Ich bin seit dem 25. November 2009 Mitglied, seit meinem 15. Lebensjahr. Heute bin ich 30 und hatte eine sehr schoene Zeit in der Modding-Community. Dank Ihnen habe ich viel gelernt und bin in 2D sehr gewachsen! Ich sage allen Danke! Ich möchte dir auch die Erlaubnis erteilen, meine Daten für deine Mods zu verwenden, aber bitte gib mir die Quellenangabe! Danke, liebe Gothic World
+
+Download original version: https://worldofplayers.ru/threads/43535/
+Video von Autor bzw. Vergleich: https://www.youtube.com/watch?v=xCpX5_duWUs&t=9s

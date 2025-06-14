@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia szybkość animacji broni białej. Wszystkie animacje tego samego typu są dopasowane do prędkości. Poświęca estetykę animacji.

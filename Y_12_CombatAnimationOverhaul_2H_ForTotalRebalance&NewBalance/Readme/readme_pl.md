@@ -1,0 +1,1 @@
+Mod adaptacyjny dla Combat Animation Overhaul 2H i TotalRebalance&NewBalance

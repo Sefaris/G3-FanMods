@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia wygląd dzika, model jest zaczerpnięty z gry Risen. Trofea na ścianach również zostały zmienione zgodnie z nowym modelem.

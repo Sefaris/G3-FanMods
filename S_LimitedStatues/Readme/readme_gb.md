@@ -1,0 +1,1 @@
+Once the maximum life/stamina/mana reaches 250, the price for upgrading them will double. Once this value reaches 500, the player will not be able to increase it using the altar.

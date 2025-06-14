@@ -1,0 +1,1 @@
+Diese Modifikation aendert die Texturen aller orkischen Soeldnerruestungen und ersetzt diese blaue Farbe ,durch schwarz.

@@ -1,0 +1,1 @@
+This modification reworks the appearance of the Shadowbeasts, the models are closer to Gothic 2. Desert racers are converted into Bloodhounds.

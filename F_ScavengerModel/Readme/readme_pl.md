@@ -1,0 +1,1 @@
+Ta modyfikacja przerabia wygląd ścierwojadów, model jest zbliżony do Gothica 2.

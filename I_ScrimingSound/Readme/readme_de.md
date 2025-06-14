@@ -1,0 +1,1 @@
+Diese Modifikation veraendert die Schreie der NPCs, wenn sie einen Todesstoß erhalten.

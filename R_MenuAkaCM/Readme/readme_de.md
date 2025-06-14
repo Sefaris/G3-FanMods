@@ -1,0 +1,1 @@
+Originales Menue, aber mit geaenderter Position der Statusleisten und einigen neuen Bildern beim Laden des Spiels.

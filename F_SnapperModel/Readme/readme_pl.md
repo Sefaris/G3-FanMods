@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia wygląd zębaczy. Model jest zbliżony do Gothic 2. Różne tekstury dla zwykłych i pustynnych zębaczy.

@@ -1,0 +1,1 @@
+Ta modyfikacja sprawia, że wszystkie okna dialogowe są całkowicie przezroczyste. Kompatybilny z każdą modyfikacją interfejsu z wyjątkiem MenuUpdated i MenuUltimate.

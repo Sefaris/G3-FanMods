@@ -1,0 +1,1 @@
+Ten skrypt wyświetla na ekranie ikony wszystkich przedmiotów, npc i innych obiektów w pobliżu gracza.

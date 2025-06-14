@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia krzyki NPC przy otrzymywaniu śmiertelnego ciosu.

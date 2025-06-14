@@ -1,0 +1,1 @@
+Ta modyfikacja zastępuje odgłosy orków, wydawane podczas otrzymywania obrażeń i śmierci, dźwiękami z Gothic 2.

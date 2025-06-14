@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia wygląd krwiopijców, zmienia się nie tylko kolor, ale także rozmiar skrzydeł.

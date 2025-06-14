@@ -1,0 +1,1 @@
+This modification reworks the appearance of Snappers. The model is close to Gothic 2. Different textures for regular and desert Snappers.

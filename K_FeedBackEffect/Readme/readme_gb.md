@@ -1,0 +1,1 @@
+This mod removes the red frame at the edges of the screen when you lose HP or turn into monsters and animals.

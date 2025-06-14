@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia wygląd trolli i czarnych trolli. Modele są zbliżone do Gothica 2.

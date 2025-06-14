@@ -1,0 +1,1 @@
+The plugin changes the principle of operation of generated inventories. Previously, they were generated once during the first conversation with the merchant. Now, trading inventories of the corresponding types will be updated once a week (once every 7 game days)

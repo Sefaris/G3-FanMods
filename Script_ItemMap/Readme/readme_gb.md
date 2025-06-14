@@ -1,0 +1,1 @@
+In game map with items and other good stuff. More info and screens in plugin’s folder.
