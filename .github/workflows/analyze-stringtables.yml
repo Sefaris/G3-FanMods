@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout z historią 2 commitów
+      - name: Checkout repo with full history
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
@@ -18,41 +18,50 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Zbierz wszystkie pliki stringtable.ini z HEAD i HEAD^
+      - name: Collect all stringtable.ini files (HEAD & HEAD^)
         run: |
           mkdir -p tmp
 
+          # 1. Find all matching files after commit (HEAD)
           find . -type f -path '**/stringtable.ini' > tmp/current_files.txt
 
+          # 2. Find all matching files from previous commit (HEAD^)
           git ls-tree -r --name-only HEAD^ | grep 'stringtable.ini$' > tmp/previous_files.txt
 
-          cat tmp/current_files.txt tmp/previous_files.txt | sort | uniq > tmp/all_stringtables.txt
+          # 3. Merge and deduplicate
+          cat tmp/current_files.txt tmp/previous_files.txt | sed 's|^\./||' | sort | uniq > tmp/all_stringtables.txt
 
           echo "[" > tmp/diff.json
           count=0
 
           while IFS= read -r file; do
-            file_cleaned="${file#./}"
+            before=$(mktemp)
+            after=$(mktemp)
 
-            before=$(git show HEAD^:"$file_cleaned" 2>/dev/null || echo "")
-            after=$(cat "$file_cleaned" 2>/dev/null || echo "")
+            git show HEAD^:"$file" 2>/dev/null > "$before" || echo "" > "$before"
+            cat "$file" 2>/dev/null > "$after" || echo "" > "$after"
 
-            json_entry=$(jq -n \
-              --arg path "$file_cleaned" \
-              --arg before "$before" \
-              --arg after "$after" \
-              '{path: $path, before: $before, after: $after}')
+            json_entry=$(jq -Rs -n \
+              --arg path "$file" \
+              '{
+                path: $path,
+                before: input,
+                after: input
+              }' < "$before" < "$after")
 
             if [ $count -gt 0 ]; then
               echo "," >> tmp/diff.json
             fi
+
             echo "$json_entry" >> tmp/diff.json
             count=$((count+1))
+
+            rm -f "$before" "$after"
           done < tmp/all_stringtables.txt
 
           echo "]" >> tmp/diff.json
 
-      - name: Uruchom analyze.js
+      - name: Run analyze.js
         run: node scripts/analyze.js
         env:
           FILE_DIFFS_PATH: ${{ github.workspace }}/tmp/diff.json
