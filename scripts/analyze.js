@@ -11,13 +11,13 @@ const languages = {
     0: "ENG",
     1: "ITA",
     2: "FRA",
-    3: "GER",
-    4: "SPA",
+    3: "DEU",
+    4: "ESP",
     5: "CZE",
     6: "HUN",
     7: "POL",
     8: "RUS",
-    9: "CHI",
+    9: "TRC",
 }
 
 function readFileUTF16(filePath) {
@@ -47,8 +47,17 @@ try {
                 } else {
                     console.log(`File ${modDir} has some missing semicolons, ${validity.invalidLines}`);
                 }
-                calculateTranslationProgress(filteredPastCommitStringtableContent);
+                const pastCommitProgress = calculateTranslationProgress(filteredPastCommitStringtableContent);
+                const preCommitProgress = calculateTranslationProgress(filteredPreCommitStringtableContent);
 
+                if(pastCommitProgress.totalLines !== preCommitProgress.totalLines) {
+                    if(pastCommitProgress.totalLines > preCommitProgress.totalLines) {
+                        console.log(`Added ${pastCommitProgress.totalLines - preCommitProgress.totalLines} lines to ${modDir}`);
+                    } else {
+                        console.log(`Removed ${preCommitProgress.totalLines - pastCommitProgress.totalLines} lines from ${modDir}`);
+                    }
+                }
+                console.log(`Current progress for ${modDir}: ${pastCommitProgress.progress}`);
             }
         }
     });
@@ -84,7 +93,5 @@ function calculateTranslationProgress(stringtableContent) {
             }
         }
     });
-    console.log(`Total lines: ${totalLines}`);
-    const progress = translatedLines.map((value, index) => `${languages[index]}: ${(value/totalLines*100).toFixed(2)}%`).join('\n');
-    console.log(`Translation progress:\n${progress}`);
-  }
+    return {totalLines, progress: translatedLines.map((value, index) => `${languages[index]}: ${(value/totalLines*100).toFixed(2)}%`).join('\n')};
+}
