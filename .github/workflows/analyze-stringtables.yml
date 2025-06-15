@@ -1,0 +1,58 @@
+name: Analyze All Stringtables
+
+on:
+  push:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout z historią 2 commitów
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Zbierz wszystkie pliki stringtable.ini z HEAD i HEAD^
+        run: |
+          mkdir -p tmp
+
+          find . -type f -path '**/stringtable.ini' > tmp/current_files.txt
+
+          git ls-tree -r --name-only HEAD^ | grep 'stringtable.ini$' > tmp/previous_files.txt
+
+          cat tmp/current_files.txt tmp/previous_files.txt | sort | uniq > tmp/all_stringtables.txt
+
+          echo "[" > tmp/diff.json
+          count=0
+
+          while IFS= read -r file; do
+            file_cleaned="${file#./}"
+
+            before=$(git show HEAD^:"$file_cleaned" 2>/dev/null || echo "")
+            after=$(cat "$file_cleaned" 2>/dev/null || echo "")
+
+            json_entry=$(jq -n \
+              --arg path "$file_cleaned" \
+              --arg before "$before" \
+              --arg after "$after" \
+              '{path: $path, before: $before, after: $after}')
+
+            if [ $count -gt 0 ]; then
+              echo "," >> tmp/diff.json
+            fi
+            echo "$json_entry" >> tmp/diff.json
+            count=$((count+1))
+          done < tmp/all_stringtables.txt
+
+          echo "]" >> tmp/diff.json
+
+      - name: Uruchom analyze.js
+        run: node scripts/analyze.js
+        env:
+          FILE_DIFFS_PATH: ${{ github.workspace }}/tmp/diff.json
