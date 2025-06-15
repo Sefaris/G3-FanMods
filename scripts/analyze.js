@@ -1,13 +1,10 @@
+console.log('DIFF_JSON_PATH:', process.env.DIFF_JSON_PATH);
+
 const fs = require('fs');
 
-const inputPath = process.env.FILE_DIFFS_PATH;
-const content = fs.readFileSync(inputPath, 'utf8');
-const files = JSON.parse(content);
-
-for (const { path, before, after } of files) {
-  console.log(`=== ${path} ===`);
-  console.log('--- BEFORE ---');
-  console.log(before);
-  console.log('--- AFTER ---');
-  console.log(after);
+const diffPath = process.env.DIFF_JSON_PATH;
+if (!diffPath) {
+  throw new Error('DIFF_JSON_PATH is not defined!');
 }
+
+const diffs = JSON.parse(fs.readFileSync(diffPath, 'utf8'));
