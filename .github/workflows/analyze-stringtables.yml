@@ -1,66 +1,20 @@
-name: Analyze All Stringtables
-
+name: Example workflow
 on:
   push:
 
 jobs:
-  analyze:
+  run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo with full history
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/github-script@v6
         with:
-          node-version: '20'
-
-      - name: Collect all stringtable.ini files (HEAD & HEAD^)
-        run: |
-          mkdir -p tmp
-
-          find . -type f -path '**/stringtable.ini' > tmp/current_files.txt
-          git ls-tree -r --name-only HEAD^ | grep 'stringtable.ini$' > tmp/previous_files.txt || true
-
-          cat tmp/current_files.txt tmp/previous_files.txt | sed 's|^\./||' | sort | uniq > tmp/all_stringtables.txt
-
-          echo "[" > tmp/diff.json
-          count=0
-
-          while IFS= read -r file; do
-            tmp_before=$(mktemp)
-            tmp_after=$(mktemp)
-
-            git show HEAD^:"$file" 2>/dev/null > "$tmp_before" || echo "" > "$tmp_before"
-            cat "$file" 2>/dev/null > "$tmp_after" || echo "" > "$tmp_after"
-
-            # Wczytujemy oba pliki przez jq -Rs i przekazujemy jako argi
-            json_entry=$(jq -Rn --arg path "$file" \
-              --slurpfile before "$tmp_before" \
-              --slurpfile after "$tmp_after" '
-              {
-                path: $path,
-                before: ($before | join("\n")),
-                after: ($after | join("\n"))
-              }
-            ')
-
-            if [ $count -gt 0 ]; then
-              echo "," >> tmp/diff.json
-            fi
-
-            echo "$json_entry" >> tmp/diff.json
-            count=$((count+1))
-
-            rm -f "$tmp_before" "$tmp_after"
-          done < tmp/all_stringtables.txt
-
-          echo "]" >> tmp/diff.json
-
-      - name: Run analyze.js
-        run: node scripts/analyze.js
-        env:
-          FILE_DIFFS_PATH: ${{ github.workspace }}/tmp/diff.json
+          script: |
+            const { execSync } = require('child_process');
+            // Pobierz pliki zmienione w ostatnim commicie (HEAD vs HEAD~1)
+            const rawFiles = execSync('git diff --name-only HEAD~1 HEAD').toString();
+            const files = rawFiles.split('\n').filter(Boolean);
+            console.log('Changed files in last commit:', files);
