@@ -42,8 +42,6 @@ jobs:
           else
             echo "Nie znaleziono pliku stringtable.ini"
           fi
-      - name: (Opcjonalnie) pokaż zawartość tmp/stringtable_old.ini
-        if: steps.diffcheck.outputs.changed_file != ''
+      - name: Uruchom analyze.js
         run: |
-          echo "--- Zawartość tmp/stringtable_old.ini ---"
-          cat tmp/stringtable_old.ini || echo "Plik nie istnieje"
+          node scripts/analyze.js
