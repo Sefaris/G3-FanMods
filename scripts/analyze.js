@@ -43,9 +43,9 @@ try {
                 console.log(`Analyzing ${modDir}`);
                 const validity = isValidFile(filteredPastCommitStringtableContent);
                 if(validity.valid){
-                    console.log(`File ${modDir} is valid`);
+                    console.log(`File is valid`);
                 } else {
-                    console.log(`File ${modDir} has some missing semicolons, ${validity.invalidLines}`);
+                    console.log(`File has some missing semicolons, ${validity.invalidLines}`);
                 }
                 const pastCommitProgress = calculateTranslationProgress(filteredPastCommitStringtableContent);
                 const preCommitProgress = calculateTranslationProgress(filteredPreCommitStringtableContent);
