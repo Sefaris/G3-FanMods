@@ -1,62 +1,30 @@
-name: Example workflow
+name: Save old stringtable.ini if changed
 on:
   push:
 
 jobs:
-  run:
+  extract-old:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 2  # potrzebne do uzyskania HEAD~1
 
-      - id: get-files
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const { execSync } = require('child_process');
-            // Pobierz pliki zmienione w ostatnim commicie (HEAD vs HEAD~1)
-            const rawFiles = execSync('git diff --name-only HEAD~1 HEAD').toString();
-            const files = rawFiles.split('\n').filter(f => f.endsWith('stringtable.ini'));
-            console.log('Changed stringtable.ini files in last commit:', files);
-            return files;
-      
-      - name: Prepare diff JSON
-        if: steps.get-files.outputs.result != '[]'
+      - name: Check if stringtable.ini changed
+        id: diffcheck
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep stringtable.ini || true)
+          echo "changed_file=$CHANGED" >> $GITHUB_OUTPUT
+
+      - name: Save previous version as stringtable_old.ini
+        if: steps.diffcheck.outputs.changed_file != ''
         run: |
           mkdir -p tmp
-          echo "[" > tmp/diff.json
-          count=0
-          # get list from previous step output
-          files=${{ steps.get-files.outputs.result }}
-          # Remove leading and trailing brackets and quotes, convert to array-like string
-          files=$(echo "$files" | sed 's/^\[\(.*\)\]$/\1/' | sed 's/", "/\n/g' | tr -d '"')
-          for file in $files; do
-            echo "Processing $file"
-            tmp_before=$(mktemp)
-            tmp_after=$(mktemp)
-            git show HEAD~1:"$file" 2>/dev/null > "$tmp_before" || echo "" > "$tmp_before"
-            cat "$file" 2>/dev/null > "$tmp_after" || echo "" > "$tmp_after"
+          git show HEAD~1:stringtable.ini > tmp/stringtable_old.ini
+          echo "Zawartość sprzed commita zapisana do tmp/stringtable_old.ini"
 
-            json_entry=$(jq -Rn --arg path "$file" --slurpfile before "$tmp_before" --slurpfile after "$tmp_after" '
-              {
-                path: $path,
-                before: ($before | join("\n")),
-                after: ($after | join("\n"))
-              }
-            ')
-
-            if [ $count -gt 0 ]; then
-              echo "," >> tmp/diff.json
-            fi
-
-            echo "$json_entry" >> tmp/diff.json
-            count=$((count+1))
-            rm -f "$tmp_before" "$tmp_after"
-          done
-          echo "]" >> tmp/diff.json
-
-      - name: Run analyze.js
-        run: node scripts/analyze.js
-        env:
-          DIFF_JSON_PATH: ${{ github.workspace }}/tmp/diff.json
+      - name: Show saved file (debug)
+        if: steps.diffcheck.outputs.changed_file != ''
+        run: |
+          echo "--- OLD FILE ---"
+          cat tmp/stringtable_old.ini
