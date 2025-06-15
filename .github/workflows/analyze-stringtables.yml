@@ -10,11 +10,53 @@ jobs:
         with:
           fetch-depth: 2
 
-      - uses: actions/github-script@v6
+      - id: get-files
+        uses: actions/github-script@v6
         with:
           script: |
             const { execSync } = require('child_process');
             // Pobierz pliki zmienione w ostatnim commicie (HEAD vs HEAD~1)
             const rawFiles = execSync('git diff --name-only HEAD~1 HEAD').toString();
-            const files = rawFiles.split('\n').filter(Boolean);
-            console.log('Changed files in last commit:', files);
+            const files = rawFiles.split('\n').filter(f => f.endsWith('stringtable.ini'));
+            console.log('Changed stringtable.ini files in last commit:', files);
+            return files;
+      
+      - name: Prepare diff JSON
+        if: steps.get-files.outputs.result != '[]'
+        run: |
+          mkdir -p tmp
+          echo "[" > tmp/diff.json
+          count=0
+          # get list from previous step output
+          files=${{ steps.get-files.outputs.result }}
+          # Remove leading and trailing brackets and quotes, convert to array-like string
+          files=$(echo "$files" | sed 's/^\[\(.*\)\]$/\1/' | sed 's/", "/\n/g' | tr -d '"')
+          for file in $files; do
+            echo "Processing $file"
+            tmp_before=$(mktemp)
+            tmp_after=$(mktemp)
+            git show HEAD~1:"$file" 2>/dev/null > "$tmp_before" || echo "" > "$tmp_before"
+            cat "$file" 2>/dev/null > "$tmp_after" || echo "" > "$tmp_after"
+
+            json_entry=$(jq -Rn --arg path "$file" --slurpfile before "$tmp_before" --slurpfile after "$tmp_after" '
+              {
+                path: $path,
+                before: ($before | join("\n")),
+                after: ($after | join("\n"))
+              }
+            ')
+
+            if [ $count -gt 0 ]; then
+              echo "," >> tmp/diff.json
+            fi
+
+            echo "$json_entry" >> tmp/diff.json
+            count=$((count+1))
+            rm -f "$tmp_before" "$tmp_after"
+          done
+          echo "]" >> tmp/diff.json
+
+      - name: Run analyze.js
+        run: node scripts/analyze.js
+        env:
+          DIFF_JSON_PATH: ${{ github.workspace }}/tmp/diff.json
