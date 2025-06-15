@@ -51,13 +51,14 @@ try {
                 const preCommitProgress = calculateTranslationProgress(filteredPreCommitStringtableContent);
 
                 if(pastCommitProgress.totalLines !== preCommitProgress.totalLines) {
+                    console.log(`Total lines for ${modDir}: ${preCommitProgress.totalLines} -> ${pastCommitProgress.totalLines}`);
                     if(pastCommitProgress.totalLines > preCommitProgress.totalLines) {
                         console.log(`Added ${pastCommitProgress.totalLines - preCommitProgress.totalLines} lines to ${modDir}`);
                     } else {
                         console.log(`Removed ${preCommitProgress.totalLines - pastCommitProgress.totalLines} lines from ${modDir}`);
                     }
                 }
-                console.log(`Current progress for ${modDir}: ${pastCommitProgress.progress}`);
+                console.log(`Current progress for ${modDir}: ${languages.map((value, index) => `${value}: ${preCommitProgress.progress[index]} -> ${pastCommitProgress.progress[index]}`)}`);
             }
         }
     });
@@ -93,5 +94,5 @@ function calculateTranslationProgress(stringtableContent) {
             }
         }
     });
-    return {totalLines, progress: translatedLines.map((value, index) => `${languages[index]}: ${(value/totalLines*100).toFixed(2)}%`).join('\n')};
+    return {totalLines, progress: translatedLines.map((value) => `${(value/totalLines*100).toFixed(2)}%`).join('\n')};
 }
