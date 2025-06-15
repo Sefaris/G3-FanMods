@@ -18,20 +18,30 @@ jobs:
           echo "Znaleziony zmieniony plik: $CHANGED_FILE"
           echo "changed_file=$CHANGED_FILE" >> $GITHUB_OUTPUT
 
-      - name: Zapisz starą wersję jako stringtable_old.ini
+      - name: Zapisz starą wersję jako tmp/.../stringtable_old.ini
         if: steps.diffcheck.outputs.changed_file != ''
         run: |
-          mkdir -p tmp
           FILE="${{ steps.diffcheck.outputs.changed_file }}"
-          
-          # Czy plik istniał wcześniej?
-          if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
-            git show HEAD~1:$FILE > tmp/stringtable_old.ini
-            echo "Poprzednia wersja pliku $FILE została zapisana jako tmp/stringtable_old.ini"
-          else
-            echo "Plik $FILE nie istniał w HEAD~1 – nie zapisano starej wersji."
-          fi
 
+          # Upewnij się, że plik zawiera stringtable.ini
+          if echo "$FILE" | grep -q "stringtable.ini"; then
+            # Usuń nazwę pliku, zostaw sam folder
+            DIR=$(dirname "$FILE")
+            TARGET_DIR="tmp/$DIR"
+
+            # Stwórz katalogi docelowe
+            mkdir -p "$TARGET_DIR"
+
+            # Sprawdź czy plik istniał wcześniej
+            if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
+              git show HEAD~1:$FILE > "$TARGET_DIR/stringtable_old.ini"
+              echo "Zapisano starą wersję jako $TARGET_DIR/stringtable_old.ini"
+            else
+              echo "Plik $FILE nie istniał w HEAD~1 – nie zapisano."
+            fi
+          else
+            echo "Nie znaleziono pliku stringtable.ini"
+          fi
       - name: (Opcjonalnie) pokaż zawartość tmp/stringtable_old.ini
         if: steps.diffcheck.outputs.changed_file != ''
         run: |
