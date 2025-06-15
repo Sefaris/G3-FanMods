@@ -7,18 +7,20 @@ const tmpDirPath = path.resolve('tmp');
 
 
 try {
-    fs.readdirSync(tmpDirPath).forEach(file => {
-        const modDirPath = path.join(tmpDirPath, file);
+    fs.readdirSync(tmpDirPath).forEach(modDir => {
+        const modDirPath = path.join(tmpDirPath, modDir);
         console.log(modDirPath);
         if(fs.statSync(modDirPath).isDirectory()) {
             console.log('Pre commit directory:', modDirPath);
-            const stringtablePath = path.join(modDirPath, 'stringtable_old.ini');
-            const pastcommitStringtablePath = path.join(modDirPath, 'stringtable.ini');
-            if(fs.existsSync(stringtablePath) && fs.existsSync(pastcommitStringtablePath)) {
-                const stringtableContent = fs.readFileSync(stringtablePath, 'utf-16le');
-                const pastcommitStringtableContent = fs.readFileSync(pastcommitStringtablePath, 'utf-16le');
+            const preCommitStringtablePath = path.join(modDirPath, 'stringtable_old.ini');
+            const pastCommitStringtablePath = path.join(modDir, 'stringtable.ini');
+            console.log(preCommitStringtablePath);
+            console.log(pastCommitStringtablePath);
+            if(fs.existsSync(preCommitStringtablePath) && fs.existsSync(pastCommitStringtablePath)) {
+                const stringtableContent = fs.readFileSync(preCommitStringtablePath, 'utf-16le');
+                const pastCommitStringtableContent = fs.readFileSync(pastCommitStringtablePath, 'utf-16le');
                 console.log(stringtableContent.split('\n')[1]);
-                console.log(pastcommitStringtableContent.split('\n')[1]);
+                console.log(pastCommitStringtableContent.split('\n')[1]);
             }
         }
     });
