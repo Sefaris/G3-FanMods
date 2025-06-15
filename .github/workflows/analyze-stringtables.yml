@@ -10,21 +10,30 @@ jobs:
         with:
           fetch-depth: 2  # potrzebne do uzyskania HEAD~1
 
-      - name: Check if stringtable.ini changed
+      - name: Znajdź zmienione pliki stringtable.ini
         id: diffcheck
         run: |
-          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep stringtable.ini || true)
-          echo "changed_file=$CHANGED" >> $GITHUB_OUTPUT
+          # Szukamy plików o nazwie stringtable.ini
+          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep stringtable.ini || true)
+          echo "Znaleziony zmieniony plik: $CHANGED_FILE"
+          echo "changed_file=$CHANGED_FILE" >> $GITHUB_OUTPUT
 
-      - name: Save previous version as stringtable_old.ini
+      - name: Zapisz starą wersję jako stringtable_old.ini
         if: steps.diffcheck.outputs.changed_file != ''
         run: |
           mkdir -p tmp
-          git show HEAD~1:stringtable.ini > tmp/stringtable_old.ini
-          echo "Zawartość sprzed commita zapisana do tmp/stringtable_old.ini"
+          FILE="${{ steps.diffcheck.outputs.changed_file }}"
+          
+          # Czy plik istniał wcześniej?
+          if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
+            git show HEAD~1:$FILE > tmp/stringtable_old.ini
+            echo "Poprzednia wersja pliku $FILE została zapisana jako tmp/stringtable_old.ini"
+          else
+            echo "Plik $FILE nie istniał w HEAD~1 – nie zapisano starej wersji."
+          fi
 
-      - name: Show saved file (debug)
+      - name: (Opcjonalnie) pokaż zawartość tmp/stringtable_old.ini
         if: steps.diffcheck.outputs.changed_file != ''
         run: |
-          echo "--- OLD FILE ---"
-          cat tmp/stringtable_old.ini
+          echo "--- Zawartość tmp/stringtable_old.ini ---"
+          cat tmp/stringtable_old.ini || echo "Plik nie istnieje"
