@@ -8,40 +8,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # potrzebne do uzyskania HEAD~1
+          fetch-depth: 2  # needed to get HEAD~1
 
-      - name: Znajdź zmienione pliki stringtable.ini
+      - name: Search for edited stringtable.ini files
         id: diffcheck
         run: |
-          # Szukamy plików o nazwie stringtable.ini
           CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep stringtable.ini || true)
-          echo "Znaleziony zmieniony plik: $CHANGED_FILE"
+          echo "Found changed file: $CHANGED_FILE"
           echo "changed_file=$CHANGED_FILE" >> $GITHUB_OUTPUT
 
-      - name: Zapisz starą wersję jako tmp/.../stringtable_old.ini
+      - name: Save old stringtable.ini
         if: steps.diffcheck.outputs.changed_file != ''
         run: |
           FILE="${{ steps.diffcheck.outputs.changed_file }}"
 
-          # Upewnij się, że plik zawiera stringtable.ini
           if echo "$FILE" | grep -q "stringtable.ini"; then
-            # Usuń nazwę pliku, zostaw sam folder
             DIR=$(dirname "$FILE")
             TARGET_DIR="tmp/$DIR"
 
-            # Stwórz katalogi docelowe
             mkdir -p "$TARGET_DIR"
 
-            # Sprawdź czy plik istniał wcześniej
             if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
               git show HEAD~1:$FILE > "$TARGET_DIR/stringtable_old.ini"
-              echo "Zapisano starą wersję jako $TARGET_DIR/stringtable_old.ini"
+              echo "Saved old stringtable.ini as $TARGET_DIR/stringtable_old.ini"
             else
-              echo "Plik $FILE nie istniał w HEAD~1 – nie zapisano."
+              echo "File $FILE did not exist in HEAD~1 – not saved."
             fi
           else
-            echo "Nie znaleziono pliku stringtable.ini"
+            echo "File stringtable.ini not found"
           fi
-      - name: Uruchom analyze.js
+      - name: Run analyze.js
         run: |
           node scripts/analyze.js

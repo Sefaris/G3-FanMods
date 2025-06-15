@@ -41,7 +41,13 @@ try {
                 const filteredPastCommitStringtableContent = pastCommitStringtableContent.filter(line => line.includes('='));
                 const filteredPreCommitStringtableContent = preCommitStringtableContent.filter(line => line.includes('='));
                 console.log(`Analyzing ${modDir}`);
-                isValidFile(filteredPastCommitStringtableContent);
+                const validity = isValidFile(filteredPastCommitStringtableContent);
+                if(validity.valid){
+                    console.log(`File ${modDir} is valid`);
+                } else {
+                    console.log(`File ${modDir} has some missing semicolons, ${validity.invalidLines}`);
+                }
+
                 calculateTranslationProgress(filteredPastCommitStringtableContent);
             }
         }
@@ -61,11 +67,7 @@ function isValidFile(stringtableContent) {
             console.log(`Wrong number of semicolons at line ${index+1}: ${semicolons}`);
         }
     });
-    if(invalidLines === 0) {
-        console.log('File is perfectly valid');
-    } else {
-        console.log(`Invalid lines: ${invalidLines}`);
-    }
+    return {valid: invalidLines===0, invalidLines};
 }
 
 function calculateTranslationProgress(stringtableContent) {
@@ -83,5 +85,5 @@ function calculateTranslationProgress(stringtableContent) {
     });
     console.log(`Total lines: ${totalLines}`);
     const progress = translatedLines.map((value, index) => `${languages[index]}: ${(value/totalLines*100).toFixed(2)}%`).join('\n');
-    console.log(`Translation progress: ${progress}`);
+    console.log(`Translation progress:\n${progress}`);
   }
