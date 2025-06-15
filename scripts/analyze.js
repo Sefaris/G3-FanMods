@@ -1,29 +1,87 @@
 const fs = require('fs');
 const path = require('path');
 
-// Przykład ścieżki do zmienionego pliku (ścieżka powinna być znana lub przekazana)
 
 const tmpDirPath = path.resolve('tmp');
+const PRECOMMIT_STRINGTABLE = 'stringtable_old.ini';
+const PASTCOMMIT_STRINGTABLE = 'stringtable.ini';
 
+
+const languages = {
+    0: "ENG",
+    2: "ITA",
+    4: "FRA",
+    6: "GER",
+    8: "SPA",
+    10: "CZE",
+    12: "HUN",
+    14: "POL",
+    16: "RUS",
+    18: "CHI",
+}
+
+function readFileUTF16(filePath) {
+  return fs.readFileSync(filePath, 'utf16le').split('\r\n');
+}
+
+function writeFileUTF16(filePath, data) {
+  fs.writeFileSync(filePath, data.join('\r\n'), 'utf16le');
+}
 
 try {
     fs.readdirSync(tmpDirPath).forEach(modDir => {
         const modDirPath = path.join(tmpDirPath, modDir);
-        console.log(modDirPath);
         if(fs.statSync(modDirPath).isDirectory()) {
-            console.log('Pre commit directory:', modDirPath);
-            const preCommitStringtablePath = path.join(modDirPath, 'stringtable_old.ini');
-            const pastCommitStringtablePath = path.join(modDir, 'stringtable.ini');
-            console.log(preCommitStringtablePath);
-            console.log(pastCommitStringtablePath);
+            const preCommitStringtablePath = path.join(modDirPath, PRECOMMIT_STRINGTABLE);
+            const pastCommitStringtablePath = path.join(modDir, PASTCOMMIT_STRINGTABLE);
             if(fs.existsSync(preCommitStringtablePath) && fs.existsSync(pastCommitStringtablePath)) {
-                const stringtableContent = fs.readFileSync(preCommitStringtablePath, 'utf-16le');
-                const pastCommitStringtableContent = fs.readFileSync(pastCommitStringtablePath, 'utf-16le');
-                console.log(stringtableContent.split('\n')[1]);
-                console.log(pastCommitStringtableContent.split('\n')[1]);
+                const preCommitStringtableContent = readFileUTF16(preCommitStringtablePath);
+                const pastCommitStringtableContent = readFileUTF16(pastCommitStringtablePath);
+
+                const filteredPastCommitStringtableContent = pastCommitStringtableContent.split('\n').filter(line => line.includes('='));
+                const filteredPreCommitStringtableContent = preCommitStringtableContent.split('\n').filter(line => line.includes('='));
+                
+                isValidFile(filteredPastCommitStringtableContent);
+                calculateTranslationProgress(filteredPastCommitStringtableContent);
             }
         }
     });
 } catch (error) {
     console.error('Error reading directory:', error);
 }
+
+
+function isValidFile(stringtableContent) {
+    let invalidLines = 0;
+    stringtableContent.forEach((line,index) => {
+        if(!line.includes(';')) return;
+        const semicolons = line.split(';').length;
+        if (semicolons !== 20) {
+            invalidLines++;
+            console.log(`Wrong number of semicolons at line ${index+1}: ${semicolons}`);
+        }
+    });
+    if(invalidLines === 0) {
+        console.log('File is perfectly valid');
+    } else {
+        console.log(`Invalid lines: ${invalidLines}`);
+    }
+}
+
+function calculateTranslationProgress(stringtableContent) {
+    let totalLines = stringtableContent.length;
+    let translatedLines = Array(10).fill(0);
+    stringtableContent.forEach(line => {
+        const key = line.split('=')[0];
+  
+        const translations = line.split('=')[1].split(';');
+        for (const [langIndex, langName] of Object.entries(languages)){
+            if(translations[langIndex*2].length !== 0 && translations[langIndex*2] !== `[${translations[langName]}]`) {
+                translatedLines[langIndex]++;
+            }
+        }
+    });
+    console.log(`Total lines: ${totalLines}`);
+    const progress = translatedLines.map((value, index) => `${languages[index]}: ${value/totalLines*100}%`).join('\t');
+    console.log(`Translation progress: ${progress}`);
+  }
