@@ -8,35 +8,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # needed to get HEAD~1
+          fetch-depth: 2
 
       - name: Search for edited stringtable.ini files
         id: diffcheck
         run: |
-          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep stringtable.ini || true)
-          echo "Found changed file: $CHANGED_FILE"
-          echo "changed_file=$CHANGED_FILE" >> $GITHUB_OUTPUT
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep stringtable.ini || true)
+          CHANGED_FILES_CSV=$(echo "$CHANGED_FILES" | paste -sd "," -)
+          echo "Found changed files: $CHANGED_FILES_CSV"
+          echo "changed_files=$CHANGED_FILES_CSV" >> $GITHUB_OUTPUT
 
-      - name: Save old stringtable.ini
-        if: steps.diffcheck.outputs.changed_file != ''
+      - name: Save old stringtable.ini files
+        if: steps.diffcheck.outputs.changed_files != ''
         run: |
-          FILE="${{ steps.diffcheck.outputs.changed_file }}"
-
-          if echo "$FILE" | grep -q "stringtable.ini"; then
-            DIR=$(dirname "$FILE")
-            TARGET_DIR="tmp/$DIR"
-
-            mkdir -p "$TARGET_DIR"
-
-            if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
-              git show HEAD~1:$FILE > "$TARGET_DIR/stringtable_old.ini"
-              echo "Saved old stringtable.ini as $TARGET_DIR/stringtable_old.ini"
-            else
-              echo "File $FILE did not exist in HEAD~1 – not saved."
+          IFS=',' read -ra FILES <<< "${{ steps.diffcheck.outputs.changed_files }}"
+          for FILE in "${FILES[@]}"; do
+            if echo "$FILE" | grep -q "stringtable.ini"; then
+              DIR=$(dirname "$FILE")
+              TARGET_DIR="tmp/$DIR"
+              mkdir -p "$TARGET_DIR"
+              if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
+                git show HEAD~1:$FILE > "$TARGET_DIR/stringtable_old.ini"
+                echo "Saved old stringtable.ini to $TARGET_DIR/stringtable_old.ini"
+              else
+                echo "File $FILE did not exist in HEAD~1 – not saved."
+              fi
             fi
-          else
-            echo "File stringtable.ini not found"
-          fi
+          done
+
       - name: Run analyze.js
-        run: |
-          node scripts/analyze.js
+        run: node scripts/analyze.js
