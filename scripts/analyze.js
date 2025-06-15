@@ -3,8 +3,8 @@ const path = require('path');
 
 // Przykład ścieżki do zmienionego pliku (ścieżka powinna być znana lub przekazana)
 
-const tmpDir = path.resolve('tmp');
+const tmpDirPath = path.resolve('.');
 
-tmpDir.readdirSync().forEach(file => {
+fs.readdirSync(tmpDirPath).forEach(file => {
   console.log(file);
 });
