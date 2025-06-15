@@ -22,34 +22,41 @@ jobs:
         run: |
           mkdir -p tmp
 
-          # 1. Pliki z obecnego commita
+          # Find stringtable.ini files in current commit
           find . -type f -path '**/stringtable.ini' > tmp/current_files.txt
 
-          # 2. Pliki z poprzedniego commita
+          # Find stringtable.ini files in previous commit
           git ls-tree -r --name-only HEAD^ | grep 'stringtable.ini$' > tmp/previous_files.txt || true
 
-          # 3. Połączenie i unifikacja
+          # Merge and deduplicate list of files
           cat tmp/current_files.txt tmp/previous_files.txt | sed 's|^\./||' | sort | uniq > tmp/all_stringtables.txt
 
           echo "[" > tmp/diff.json
           count=0
 
           while IFS= read -r file; do
-            before_content="$(git show HEAD^:"$file" 2>/dev/null || echo "")"
-            after_content="$(cat "$file" 2>/dev/null || echo "")"
+            tmp_before=$(mktemp)
+            tmp_after=$(mktemp)
 
-            json_entry=$(jq -Rn \
-              --arg path "$file" \
-              --arg before "$before_content" \
-              --arg after "$after_content" \
-              '{path: $path, before: $before, after: $after}')
+            git show HEAD^:"$file" 2>/dev/null > "$tmp_before" || echo "" > "$tmp_before"
+            cat "$file" 2>/dev/null > "$tmp_after" || echo "" > "$tmp_after"
+
+            json_entry=$(jq -Rs --arg path "$file" --slurpfile before "$tmp_before" '
+              {
+                path: $path,
+                before: $before[0],
+                after: input
+              }
+            ' "$tmp_after")
 
             if [ $count -gt 0 ]; then
               echo "," >> tmp/diff.json
             fi
 
             echo "$json_entry" >> tmp/diff.json
-            count=$((count+1))
+            count=$((count + 1))
+
+            rm -f "$tmp_before" "$tmp_after"
           done < tmp/all_stringtables.txt
 
           echo "]" >> tmp/diff.json
