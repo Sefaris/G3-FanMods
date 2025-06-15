@@ -40,7 +40,7 @@ try {
 
                 const filteredPastCommitStringtableContent = pastCommitStringtableContent.filter(line => line.includes('='));
                 const filteredPreCommitStringtableContent = preCommitStringtableContent.filter(line => line.includes('='));
-                
+                console.log(`Analyzing ${modDir}`);
                 isValidFile(filteredPastCommitStringtableContent);
                 calculateTranslationProgress(filteredPastCommitStringtableContent);
             }
@@ -82,6 +82,6 @@ function calculateTranslationProgress(stringtableContent) {
         }
     });
     console.log(`Total lines: ${totalLines}`);
-    const progress = translatedLines.map((value, index) => `${languages[index]}: ${value/totalLines*100}%`).join('\t');
+    const progress = translatedLines.map((value, index) => `${languages[index]}: ${(value/totalLines*100).toFixed(2)}%`).join('\n');
     console.log(`Translation progress: ${progress}`);
   }
