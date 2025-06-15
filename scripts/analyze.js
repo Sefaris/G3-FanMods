@@ -9,15 +9,15 @@ const PASTCOMMIT_STRINGTABLE = 'stringtable.ini';
 
 const languages = {
     0: "ENG",
-    2: "ITA",
-    4: "FRA",
-    6: "GER",
-    8: "SPA",
-    10: "CZE",
-    12: "HUN",
-    14: "POL",
-    16: "RUS",
-    18: "CHI",
+    1: "ITA",
+    2: "FRA",
+    3: "GER",
+    4: "SPA",
+    5: "CZE",
+    6: "HUN",
+    7: "POL",
+    8: "RUS",
+    9: "CHI",
 }
 
 function readFileUTF16(filePath) {
