@@ -3,7 +3,7 @@ on:
   push:
 
 jobs:
-  extract-old:
+  analyze-stringtables:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

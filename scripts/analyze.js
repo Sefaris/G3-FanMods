@@ -47,8 +47,8 @@ try {
                 } else {
                     console.log(`File ${modDir} has some missing semicolons, ${validity.invalidLines}`);
                 }
-
                 calculateTranslationProgress(filteredPastCommitStringtableContent);
+
             }
         }
     });
@@ -77,6 +77,7 @@ function calculateTranslationProgress(stringtableContent) {
         const key = line.split('=')[0];
   
         const translations = line.split('=')[1].split(';');
+        if(translations.length !== 20) return;
         for (const [langIndex, langName] of Object.entries(languages)){
             if(translations[langIndex*2].length !== 0 && translations[langIndex*2] !== `[${translations[langName]}]`) {
                 translatedLines[langIndex]++;
