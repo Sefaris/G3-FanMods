@@ -11,11 +11,14 @@ try {
         const modDirPath = path.join(tmpDirPath, file);
         console.log(modDirPath);
         if(fs.statSync(modDirPath).isDirectory()) {
-            console.log('Directory:', modDirPath);
+            console.log('Pre commit directory:', modDirPath);
             const stringtablePath = path.join(modDirPath, 'stringtable_old.ini');
-            console.log('Stringtable:', stringtablePath);
-            if(fs.existsSync(stringtablePath)) {
-                console.log('Stringtable exists:', stringtablePath);
+            const pastcommitStringtablePath = path.join(modDirPath, 'stringtable.ini');
+            if(fs.existsSync(stringtablePath) && fs.existsSync(pastcommitStringtablePath)) {
+                const stringtableContent = fs.readFileSync(stringtablePath, 'utf-16le');
+                const pastcommitStringtableContent = fs.readFileSync(pastcommitStringtablePath, 'utf-16le');
+                console.log(stringtableContent.split('\n')[1]);
+                console.log(pastcommitStringtableContent.split('\n')[1]);
             }
         }
     });
