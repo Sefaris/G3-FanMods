@@ -38,8 +38,8 @@ try {
                 const preCommitStringtableContent = readFileUTF16(preCommitStringtablePath);
                 const pastCommitStringtableContent = readFileUTF16(pastCommitStringtablePath);
 
-                const filteredPastCommitStringtableContent = pastCommitStringtableContent.split('\n').filter(line => line.includes('='));
-                const filteredPreCommitStringtableContent = preCommitStringtableContent.split('\n').filter(line => line.includes('='));
+                const filteredPastCommitStringtableContent = pastCommitStringtableContent.filter(line => line.includes('='));
+                const filteredPreCommitStringtableContent = preCommitStringtableContent.filter(line => line.includes('='));
                 
                 isValidFile(filteredPastCommitStringtableContent);
                 calculateTranslationProgress(filteredPastCommitStringtableContent);
