@@ -42,10 +42,10 @@ function updateReadme() {
 
     console.log(translationStats.map(item=>item.progress));
 
-    // const replacement = `${START_MARKER}\n${newContent.trim()}\n${END_MARKER}`;
-    // readme = readme.replace(pattern, replacement);
-    // fs.writeFileSync(readmePath, readme);
-    // console.log('✅ README.md updated successfully.');
+    const replacement = `${START_MARKER}\n${newContent.trim()}\n${END_MARKER}`;
+    readme = readme.replace(pattern, replacement);
+    fs.writeFileSync(readmePath, readme);
+    console.log('✅ README.md updated successfully.');
 }
 
 function getMods() {
