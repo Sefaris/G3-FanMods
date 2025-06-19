@@ -1,7 +1,7 @@
 {
   "id": "CasualRebalance",
   "title": "CasualRebalance",
-  "category": "Balance Mods",
+  "category": "Balance",
   "dependencies": [
     "CM Rebalance",
     "Intuitive Combat System",

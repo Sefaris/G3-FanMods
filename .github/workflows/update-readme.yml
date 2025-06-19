@@ -1,0 +1,29 @@
+name: Update README with translation progress
+
+on:
+  workflow_dispatch:  # możesz zmienić na: workflow_dispatch
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run update-readme.js
+        run: |
+          node _scripts/update-readme.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update translation progress in README"
+          git push

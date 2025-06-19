@@ -37,4 +37,4 @@ jobs:
           done
 
       - name: Run analyze.js
-        run: node scripts/analyze.js
+        run: node _scripts/analyze.js
