@@ -16,7 +16,7 @@ const languages = {
 
 const STRINGTABLE = 'stringtable.ini';
 const MOD = 'mod.json';
-const readmePath = path.join('..', 'README.md');
+const readmePath = path.join('..', 'readme.md');
 const basePath = path.resolve('..');
 // Fragment do wstawienia – możesz później wygenerować dynamicznie
 
@@ -28,7 +28,7 @@ function updateReadme() {
     const pattern = new RegExp(`${START_MARKER}[\\s\\S]*?${END_MARKER}`, 'gm');
     let readme = fs.readFileSync(readmePath, 'utf8');
     if (!pattern.test(readme)) {
-        console.error('Markers not found in README.md');
+        console.error('Markers not found in readme.md');
         process.exit(1);
     }
 
