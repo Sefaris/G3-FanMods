@@ -28,7 +28,7 @@ jobs:
               TARGET_DIR="tmp/$DIR"
               mkdir -p "$TARGET_DIR"
               if git ls-tree -r HEAD~1 --name-only | grep -q "^$FILE$"; then
-                git show HEAD~1:$FILE > "$TARGET_DIR/stringtable_old.ini"
+                git show HEAD~1:"$FILE" > "$TARGET_DIR/stringtable_old.ini"
                 echo "Saved old stringtable.ini to $TARGET_DIR/stringtable_old.ini"
               else
                 echo "File $FILE did not exist in HEAD~1 – not saved."
