@@ -16,7 +16,7 @@ const languages = {
 
 const STRINGTABLE = 'stringtable.ini';
 const MOD = 'mod.json';
-const readmePath = path.join('..', 'readme.md');
+const readmePath = path.join('readme.md');
 const basePath = path.resolve('..');
 // Fragment do wstawienia – możesz później wygenerować dynamicznie
 
