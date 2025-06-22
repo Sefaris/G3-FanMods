@@ -614,14 +614,14 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/0?title=TRC)
 
 ### Alternative World
-![ENG](https://progress-bar.xyz/83?title=ENG)
+![ENG](https://progress-bar.xyz/51?title=ENG)
 ![ITA](https://progress-bar.xyz/43?title=ITA)
 ![FRA](https://progress-bar.xyz/43?title=FRA)
-![GER](https://progress-bar.xyz/83?title=GER)
+![GER](https://progress-bar.xyz/47?title=GER)
 ![SPA](https://progress-bar.xyz/43?title=SPA)
 ![CZE](https://progress-bar.xyz/81?title=CZE)
 ![HUN](https://progress-bar.xyz/83?title=HUN)
-![POL](https://progress-bar.xyz/43?title=POL)
+![POL](https://progress-bar.xyz/83?title=POL)
 ![RUS](https://progress-bar.xyz/83?title=RUS)
 ![TRC](https://progress-bar.xyz/47?title=TRC)
 
