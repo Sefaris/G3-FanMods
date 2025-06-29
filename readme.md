@@ -560,8 +560,8 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![GER](https://progress-bar.xyz/100?title=GER)
 ![SPA](https://progress-bar.xyz/6?title=SPA)
 ![CZE](https://progress-bar.xyz/6?title=CZE)
-![HUN](https://progress-bar.xyz/81?title=HUN)
-![POL](https://progress-bar.xyz/84?title=POL)
+![HUN](https://progress-bar.xyz/82?title=HUN)
+![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
 ![TRC](https://progress-bar.xyz/5?title=TRC)
 
