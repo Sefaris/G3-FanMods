@@ -1,7 +1,7 @@
 {
   "id": "TotalRebalance_&_NewBalance_&_OrcLite",
   "title": "TotalRebalance_&_NewBalance_&_OrcLite",
-  "category": "Balance Mods/TotalRebalance",
+  "category": "Balance",
   "dependencies": [
     "TotalRebalance",
     "Orc Mod Lite",

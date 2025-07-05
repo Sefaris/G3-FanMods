@@ -2,9 +2,7 @@
   "id": "Menu Ultimate",
   "title": "Menu Ultimate",
   "category": "Interface",
-  "dependencies": [
-    "Menu Updated"
-  ],
+  "dependencies": [],
   "incompatibles": [
     "Menu Elder",
     "Menu CM",
@@ -16,7 +14,9 @@
     "Clear Dialog Box",
     "Immersive World Updated MenuDark",
     "Immersive World Updated MenuOld",
-    "Night Theme"
+    "Menu Updated"
   ],
-  "authors": ["iLoveHeavyMetal"]
+  "authors": [
+    "iLoveHeavyMetal"
+  ]
 }

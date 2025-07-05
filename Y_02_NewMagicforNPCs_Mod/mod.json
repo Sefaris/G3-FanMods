@@ -2,12 +2,12 @@
   "id": "New Magic for NPCs Mod",
   "title": "New Magic for NPCs Mod",
   "category": "Gameplay",
-  "dependencies": [
-    "New Balance and Combat"
-  ],
+  "dependencies": [],
   "incompatibles": [
     "2H_BlockingAbility",
     "UpdatePack Combat Fix"
   ],
-  "authors": ["Jackydima"]
+  "authors": [
+    "Jackydima"
+  ]
 }

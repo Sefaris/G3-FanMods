@@ -5,6 +5,8 @@
   "dependencies": [
     "Main"
   ],
-  "incompatibles": [],
+  "incompatibles": [
+    "Balance Ultimate"
+  ],
   "authors": ["Zliden"]
 }
