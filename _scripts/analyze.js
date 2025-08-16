@@ -1,6 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
+import { readFileUTF16, isValidFile, calculateTranslationProgress } from './utils.mjs';
 
 const tmpDirPath = path.resolve('tmp');
 const PRECOMMIT_STRINGTABLE = 'stringtable_old.ini';
@@ -20,15 +21,15 @@ const languages = {
     9: "TRC",
 }
 
-function readFileUTF16(filePath) {
-  return fs.readFileSync(filePath, 'utf16le').split('\r\n');
-}
 
-function writeFileUTF16(filePath, data) {
-  fs.writeFileSync(filePath, data.join('\r\n'), 'utf16le');
-}
+
+
 
 try {
+    if(!fs.existsSync(tmpDirPath)) {
+        console.log('tmp directory does not exist');
+        process.exit(1);
+    }
     fs.readdirSync(tmpDirPath).forEach(modDir => {
         const modDirPath = path.join(tmpDirPath, modDir);
         if(fs.statSync(modDirPath).isDirectory()) {
@@ -61,37 +62,9 @@ try {
             }
         }
     });
+
 } catch (error) {
     console.error('Error reading directory:', error);
 }
 
 
-function isValidFile(stringtableContent) {
-    let invalidLines = 0;
-    stringtableContent.forEach((line,index) => {
-        if(!line.includes(';')) return;
-        const semicolons = line.split(';').length;
-        if (semicolons !== 20) {
-            invalidLines++;
-            console.log(`Wrong number of semicolons at line ${index+1}: ${semicolons}`);
-        }
-    });
-    return {valid: invalidLines===0, invalidLines};
-}
-
-function calculateTranslationProgress(stringtableContent) {
-    let totalLines = stringtableContent.length;
-    let translatedLines = Array(10).fill(0);
-    stringtableContent.forEach(line => {
-        const key = line.split('=')[0];
-  
-        const translations = line.split('=')[1].split(';');
-        if(translations.length !== 20) return;
-        for (const [langIndex, langName] of Object.entries(languages)){
-            if(translations[langIndex*2].length !== 0 && translations[langIndex*2] !== `[${translations[langName]}]`) {
-                translatedLines[langIndex]++;
-            }
-        }
-    });
-    return {totalLines, progress: translatedLines.map((value) => `${(value/totalLines*100).toFixed(2)}%`)};
-}
