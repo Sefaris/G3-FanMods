@@ -13,18 +13,6 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ### Translation progress
 
 <!-- START:translation-progress -->
-### QP Mini Quests
-![ENG](https://progress-bar.xyz/100?title=ENG)
-![ITA](https://progress-bar.xyz/100?title=ITA)
-![FRA](https://progress-bar.xyz/0?title=FRA)
-![GER](https://progress-bar.xyz/100?title=GER)
-![SPA](https://progress-bar.xyz/100?title=SPA)
-![CZE](https://progress-bar.xyz/0?title=CZE)
-![HUN](https://progress-bar.xyz/100?title=HUN)
-![POL](https://progress-bar.xyz/100?title=POL)
-![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
-
 ### QuestPaket
 ![ENG](https://progress-bar.xyz/100?title=ENG)
 ![ITA](https://progress-bar.xyz/99?title=ITA)
@@ -36,6 +24,18 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
 ![TRC](https://progress-bar.xyz/12?title=TRC)
+
+### QP Mini Quests
+![ENG](https://progress-bar.xyz/100?title=ENG)
+![ITA](https://progress-bar.xyz/100?title=ITA)
+![FRA](https://progress-bar.xyz/0?title=FRA)
+![GER](https://progress-bar.xyz/100?title=GER)
+![SPA](https://progress-bar.xyz/100?title=SPA)
+![CZE](https://progress-bar.xyz/0?title=CZE)
+![HUN](https://progress-bar.xyz/100?title=HUN)
+![POL](https://progress-bar.xyz/100?title=POL)
+![RUS](https://progress-bar.xyz/100?title=RUS)
+![TRC](https://progress-bar.xyz/0?title=TRC)
 
 ### ContentModBase
 ![ENG](https://progress-bar.xyz/99?title=ENG)
@@ -207,15 +207,15 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 
 ### Main
 ![ENG](https://progress-bar.xyz/100?title=ENG)
-![ITA](https://progress-bar.xyz/18?title=ITA)
-![FRA](https://progress-bar.xyz/9?title=FRA)
-![GER](https://progress-bar.xyz/99?title=GER)
-![SPA](https://progress-bar.xyz/18?title=SPA)
-![CZE](https://progress-bar.xyz/12?title=CZE)
-![HUN](https://progress-bar.xyz/13?title=HUN)
+![ITA](https://progress-bar.xyz/65?title=ITA)
+![FRA](https://progress-bar.xyz/10?title=FRA)
+![GER](https://progress-bar.xyz/100?title=GER)
+![SPA](https://progress-bar.xyz/65?title=SPA)
+![CZE](https://progress-bar.xyz/62?title=CZE)
+![HUN](https://progress-bar.xyz/62?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/12?title=TRC)
+![TRC](https://progress-bar.xyz/61?title=TRC)
 
 ### Consequences
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -470,16 +470,16 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/0?title=TRC)
 
 ### TRLimitedStatues
-![ENG](https://progress-bar.xyz/1?title=ENG)
-![ITA](https://progress-bar.xyz/1?title=ITA)
-![FRA](https://progress-bar.xyz/1?title=FRA)
+![ENG](https://progress-bar.xyz/20?title=ENG)
+![ITA](https://progress-bar.xyz/20?title=ITA)
+![FRA](https://progress-bar.xyz/20?title=FRA)
 ![GER](https://progress-bar.xyz/100?title=GER)
-![SPA](https://progress-bar.xyz/1?title=SPA)
-![CZE](https://progress-bar.xyz/1?title=CZE)
-![HUN](https://progress-bar.xyz/1?title=HUN)
-![POL](https://progress-bar.xyz/100?title=POL)
+![SPA](https://progress-bar.xyz/20?title=SPA)
+![CZE](https://progress-bar.xyz/20?title=CZE)
+![HUN](https://progress-bar.xyz/20?title=HUN)
+![POL](https://progress-bar.xyz/87?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/1?title=TRC)
+![TRC](https://progress-bar.xyz/20?title=TRC)
 
 ### Extended Frying
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -506,16 +506,16 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Quest Edit
-![ENG](https://progress-bar.xyz/91?title=ENG)
-![ITA](https://progress-bar.xyz/81?title=ITA)
-![FRA](https://progress-bar.xyz/77?title=FRA)
+![ENG](https://progress-bar.xyz/92?title=ENG)
+![ITA](https://progress-bar.xyz/84?title=ITA)
+![FRA](https://progress-bar.xyz/80?title=FRA)
 ![GER](https://progress-bar.xyz/100?title=GER)
-![SPA](https://progress-bar.xyz/82?title=SPA)
-![CZE](https://progress-bar.xyz/66?title=CZE)
+![SPA](https://progress-bar.xyz/85?title=SPA)
+![CZE](https://progress-bar.xyz/70?title=CZE)
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/71?title=TRC)
+![TRC](https://progress-bar.xyz/74?title=TRC)
 
 ### Alternative Pickpocketing
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -566,14 +566,14 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/5?title=TRC)
 
 ### TotalRebalance
-![ENG](https://progress-bar.xyz/62?title=ENG)
+![ENG](https://progress-bar.xyz/61?title=ENG)
 ![ITA](https://progress-bar.xyz/39?title=ITA)
 ![FRA](https://progress-bar.xyz/38?title=FRA)
 ![GER](https://progress-bar.xyz/99?title=GER)
 ![SPA](https://progress-bar.xyz/39?title=SPA)
-![CZE](https://progress-bar.xyz/39?title=CZE)
+![CZE](https://progress-bar.xyz/38?title=CZE)
 ![HUN](https://progress-bar.xyz/38?title=HUN)
-![POL](https://progress-bar.xyz/100?title=POL)
+![POL](https://progress-bar.xyz/99?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
 ![TRC](https://progress-bar.xyz/38?title=TRC)
 
@@ -617,7 +617,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![ENG](https://progress-bar.xyz/51?title=ENG)
 ![ITA](https://progress-bar.xyz/43?title=ITA)
 ![FRA](https://progress-bar.xyz/43?title=FRA)
-![GER](https://progress-bar.xyz/47?title=GER)
+![GER](https://progress-bar.xyz/51?title=GER)
 ![SPA](https://progress-bar.xyz/43?title=SPA)
 ![CZE](https://progress-bar.xyz/81?title=CZE)
 ![HUN](https://progress-bar.xyz/83?title=HUN)
