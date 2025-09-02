@@ -32,6 +32,7 @@ try {
     }
     fs.readdirSync(tmpDirPath).forEach(modDir => {
         const modDirPath = path.join(tmpDirPath, modDir);
+        if(modDir.includes('_scripts')) return;
         if(fs.statSync(modDirPath).isDirectory()) {
             const preCommitStringtablePath = path.join(modDirPath, PRECOMMIT_STRINGTABLE);
             const pastCommitStringtablePath = path.join(modDir, PASTCOMMIT_STRINGTABLE);

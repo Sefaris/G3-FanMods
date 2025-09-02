@@ -14,8 +14,9 @@ const languages = {
   9: "TRC",
 }
 
-const qe = "D:\\Repos\\G3-FanMods\\Y_05_TotalRebalance\\stringtable.ini"
-const qeo = "D:\\Repos\\G3-FanMods\\Y_05_TotalRebalance\\stringtable.ini"
+const source = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable.ini"
+const destination = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable-new.ini"
+const output = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable-out.ini"
 
 
 function readFileUTF16(filePath) {
@@ -124,8 +125,6 @@ function countSemicols(lines) {
   });
 }
 
-checkMods();
-
 function calculateTranslationProgress(stringtableContent) {
   let totalLines = stringtableContent.length;
   let translatedLines = Array(10).fill(0);
@@ -142,3 +141,35 @@ function calculateTranslationProgress(stringtableContent) {
   return { totalLines, progress: translatedLines.map((value) => `${(value / totalLines * 100).toFixed(2)}%`) };
 }
 
+function replaceTranslation(source, destination,output, lang) {
+  const file1Path = path.join(destination);
+  const file2Path = path.join(source);
+  const langIndex = Object.keys(languages).find(
+  key => languages[key].toLowerCase() === `${lang}`.toLowerCase()
+  );
+
+
+  const file1Lines = readFileUTF16(file1Path);
+  const file2Lines = readFileUTF16(file2Path);
+
+  const outputLines = file1Lines.map((line, index) => {
+    if (line.includes('=')) {
+      const parts = line.split(';');
+      for (const lines2 of file2Lines) {
+        const idx1 = parts[0].split('=')[0]
+        const idx2 = lines2.split('=')[0]
+        if (idx1 === idx2) {
+          const translatedPart = lines2.split(';')[langIndex*2];
+          parts[langIndex*2] = translatedPart;
+          return parts.join(';');
+        }
+      }
+    }
+    return line;
+  });
+
+  writeFileUTF16(output, outputLines);
+
+}
+
+replaceTranslation(source,destination,output, "POL")
