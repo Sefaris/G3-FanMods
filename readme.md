@@ -233,7 +233,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![ENG](https://progress-bar.xyz/96?title=ENG)
 ![ITA](https://progress-bar.xyz/0?title=ITA)
 ![FRA](https://progress-bar.xyz/0?title=FRA)
-![GER](https://progress-bar.xyz/0?title=GER)
+![GER](https://progress-bar.xyz/100?title=GER)
 ![SPA](https://progress-bar.xyz/0?title=SPA)
 ![CZE](https://progress-bar.xyz/0?title=CZE)
 ![HUN](https://progress-bar.xyz/0?title=HUN)
@@ -377,7 +377,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![ENG](https://progress-bar.xyz/35?title=ENG)
 ![ITA](https://progress-bar.xyz/0?title=ITA)
 ![FRA](https://progress-bar.xyz/0?title=FRA)
-![GER](https://progress-bar.xyz/0?title=GER)
+![GER](https://progress-bar.xyz/100?title=GER)
 ![SPA](https://progress-bar.xyz/0?title=SPA)
 ![CZE](https://progress-bar.xyz/0?title=CZE)
 ![HUN](https://progress-bar.xyz/99?title=HUN)
@@ -624,6 +624,18 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![POL](https://progress-bar.xyz/83?title=POL)
 ![RUS](https://progress-bar.xyz/83?title=RUS)
 ![TRC](https://progress-bar.xyz/47?title=TRC)
+
+### German Text Updates
+![ENG](https://progress-bar.xyz/80?title=ENG)
+![ITA](https://progress-bar.xyz/80?title=ITA)
+![FRA](https://progress-bar.xyz/72?title=FRA)
+![GER](https://progress-bar.xyz/100?title=GER)
+![SPA](https://progress-bar.xyz/80?title=SPA)
+![CZE](https://progress-bar.xyz/81?title=CZE)
+![HUN](https://progress-bar.xyz/90?title=HUN)
+![POL](https://progress-bar.xyz/90?title=POL)
+![RUS](https://progress-bar.xyz/90?title=RUS)
+![TRC](https://progress-bar.xyz/80?title=TRC)
 
 ### CNQEasyPaladin
 ![ENG](https://progress-bar.xyz/100?title=ENG)
