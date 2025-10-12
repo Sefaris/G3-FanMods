@@ -16,7 +16,7 @@ const languages = {
 
 const source = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable.ini"
 const destination = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable-new.ini"
-const output = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable-out.ini"
+//const output = "D:\\Repos\\G3-FanMods\\R_(ARP)_Knight Chronicle\\stringtable-out.ini"
 
 
 function readFileUTF16(filePath) {
@@ -141,7 +141,7 @@ function calculateTranslationProgress(stringtableContent) {
   return { totalLines, progress: translatedLines.map((value) => `${(value / totalLines * 100).toFixed(2)}%`) };
 }
 
-function replaceTranslation(source, destination,output, lang) {
+export function replaceTranslation(source, destination, output, lang) {
   const file1Path = path.join(destination);
   const file2Path = path.join(source);
   const langIndex = Object.keys(languages).find(
@@ -172,4 +172,4 @@ function replaceTranslation(source, destination,output, lang) {
 
 }
 
-replaceTranslation(source,destination,output, "POL")
+//replaceTranslation(source,destination, output, "POL")
