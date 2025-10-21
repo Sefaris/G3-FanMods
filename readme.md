@@ -405,7 +405,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![SPA](https://progress-bar.xyz/0?title=SPA)
 ![CZE](https://progress-bar.xyz/0?title=CZE)
 ![HUN](https://progress-bar.xyz/62?title=HUN)
-![POL](https://progress-bar.xyz/67?title=POL)
+![POL](https://progress-bar.xyz/98?title=POL)
 ![RUS](https://progress-bar.xyz/98?title=RUS)
 ![TRC](https://progress-bar.xyz/0?title=TRC)
 
