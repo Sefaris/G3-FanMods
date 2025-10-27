@@ -75,9 +75,13 @@ export function checkMods(rootPath) {
   fs.readdirSync(rootPath).forEach((directory) => {
     const directoryPath = path.join(rootPath, directory);
     const file = path.join(directoryPath, 'mod.json');
+    const fileini = path.join(directoryPath, 'Mod.ini');
     if (!fs.statSync(directoryPath).isDirectory()) return;
     if (!fs.existsSync(file)) {
-      console.log(file);
+      console.log(`No json for ${directory}`);
+    }
+    if (!fs.existsSync(fileini)) {
+      console.log(`No ini for ${directory}`);
     }
   });
 }

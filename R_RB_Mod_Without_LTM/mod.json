@@ -2,9 +2,7 @@
   "id": "RB_Mod_Without_LTM",
   "title": "RB_Mod_Without_LTM",
   "category": "Content",
-  "dependencies": [
-    "LivelyTownsMod"
-  ],
+  "dependencies": [],
   "incompatibles": [
     "RB_Mod",
     "LivelyTownsMod",

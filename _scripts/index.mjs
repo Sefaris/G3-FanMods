@@ -1,4 +1,5 @@
-import { readFileUTF16, isValidFile, calculateTranslationProgress, compareDirectoryNames,validateAllDirectories, copyUnionStarterFormatToModmanagerFormat, getModInfo, copyStringtablesToRepository, copyModIniToRepository, copyModInisToRepository } from './utils.mjs';
+import { readFileUTF16,checkMods, isValidFile, calculateTranslationProgress, compareDirectoryNames, validateAllDirectories, copyUnionStarterFormatToModmanagerFormat, getModInfo, copyStringtablesToRepository, copyModIniToRepository, copyModInisToRepository } from './utils.mjs';
+import { replaceTranslation } from './lineReplacer.mjs';
 
 const MODS_US = "D:\\Sefaris\\G3\\Modpack 161\\ModsUS";
 const MODS_PL = "D:\\Sefaris\\G3\\Modpack 161\\Mods";
@@ -13,3 +14,11 @@ const gitRepo = "D:\\Repos\\G3-FanMods";
 // copyModInisToRepository(MODS_US, REPOSITORY);
 
 //validateAllDirectories(gitRepo);
+
+const source = "D:\\Repos\\GermanG3\\N_Main\\ModFiles\\stringtable.ini";
+const destination = "D:\\Repos\\G3-FanMods\\A_2_BaseMod\\stringtable.ini";
+
+
+//replaceTranslation(source, destination, destination, "GER");
+
+//checkMods(gitRepo);
