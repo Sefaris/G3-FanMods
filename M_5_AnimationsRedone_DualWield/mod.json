@@ -1,0 +1,12 @@
+{
+  "id": "Animations Redone - Dual Wield",
+  "title": "Animations Redone - Dual Wield",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

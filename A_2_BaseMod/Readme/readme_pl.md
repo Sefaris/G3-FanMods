@@ -1,0 +1,1 @@
+Mod, będący bazą pod instalację kolejnych modów. Nie powoduje żadnych widocznych zmian w grze.

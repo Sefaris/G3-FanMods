@@ -4,5 +4,7 @@
   "category": "Sounds",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["xalitus"]
+  "authors": [
+    "xalitus"
+  ]
 }

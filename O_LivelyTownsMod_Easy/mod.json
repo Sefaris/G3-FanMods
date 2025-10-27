@@ -8,5 +8,7 @@
   "incompatibles": [
     "TotalRebalance"
   ],
-  "authors": ["Zliden"]
+  "authors": [
+    "Zliden"
+  ]
 }

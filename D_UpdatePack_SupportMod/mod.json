@@ -4,5 +4,7 @@
   "category": "Fixes",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["zandr"]
+  "authors": [
+    "zandr"
+  ]
 }

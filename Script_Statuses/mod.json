@@ -2,7 +2,11 @@
   "id": "Statuses",
   "title": "Statuses",
   "category": "Balance",
-  "dependencies": ["New Balance and Combat"],
+  "dependencies": [
+    "New Balance and Combat"
+  ],
   "incompatibles": [],
-  "authors": ["Zipperiusz"]
+  "authors": [
+    "Zipperiusz"
+  ]
 }

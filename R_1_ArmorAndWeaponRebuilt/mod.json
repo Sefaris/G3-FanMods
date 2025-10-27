@@ -1,0 +1,13 @@
+{
+  "id": "Armor And Weapon Rebuilt",
+  "title": "Armor And Weapon Rebuilt",
+  "category": "Textures/Models",
+  "dependencies": [
+    "LivelyTownsMod",
+    "ContentModBase"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Justman2001"
+  ]
+}

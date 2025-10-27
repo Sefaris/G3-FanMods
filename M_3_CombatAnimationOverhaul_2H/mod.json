@@ -4,8 +4,10 @@
   "category": "Gameplay",
   "dependencies": [],
   "incompatibles": [
-    "Intuitive Combat System",
-    "FasterCombatMod"
+    "FasterCombatMod",
+    "Animations Redone - Two Handed Swords"
   ],
-  "authors": ["Beorn33"]
+  "authors": [
+    "Beorn33"
+  ]
 }

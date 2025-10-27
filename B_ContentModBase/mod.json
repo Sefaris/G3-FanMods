@@ -2,7 +2,12 @@
   "id": "ContentModBase",
   "title": "ContentModBase",
   "category": "Content",
-  "dependencies": [],
+  "dependencies": [
+    "BaseMod"
+  ],
   "incompatibles": [],
-  "authors": ["Joey1990","Mordrak"]
+  "authors": [
+    "Joey1990",
+    "Mordrak"
+  ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "Animations Redone - Two Handed Swords",
+  "title": "Animations Redone - Two Handed Swords",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "CombatAnimationOverhaul_2H"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

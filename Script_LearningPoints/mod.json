@@ -4,5 +4,7 @@
   "category": "Balance",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["George"]
+  "authors": [
+    "George"
+  ]
 }

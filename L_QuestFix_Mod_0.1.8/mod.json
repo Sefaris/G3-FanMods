@@ -4,5 +4,7 @@
   "category": "Content",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["zandr"]
+  "authors": [
+    "zandr"
+  ]
 }

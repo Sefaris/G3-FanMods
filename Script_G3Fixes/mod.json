@@ -4,5 +4,7 @@
   "category": "Patches",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["fyryny"]
+  "authors": [
+    "fyryny"
+  ]
 }

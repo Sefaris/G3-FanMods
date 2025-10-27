@@ -1,0 +1,13 @@
+{
+  "id": "Finishing Downward Slash Attack",
+  "title": "Finishing Downward Slash Attack",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "Finishing Stab Attack"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

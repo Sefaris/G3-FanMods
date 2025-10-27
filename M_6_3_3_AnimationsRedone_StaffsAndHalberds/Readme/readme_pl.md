@@ -1,0 +1,1 @@
+Mod zastępuje silny atak uderzeniem z zamachem z moda AnimationsRedone.

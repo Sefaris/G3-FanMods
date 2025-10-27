@@ -6,9 +6,8 @@
     "TotalRebalance",
     "Orc Mod Lite"
   ],
-  "incompatibles": [
-    "TotalRebalance_&_NewBalance_&_OrcLite",
-    "TotalRebalance & NewBalance"
-  ],
-  "authors": ["Zliden"]
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
 }

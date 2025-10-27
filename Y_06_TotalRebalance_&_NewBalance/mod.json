@@ -7,9 +7,10 @@
     "TotalRebalance"
   ],
   "incompatibles": [
-    "TotalRebalance_&_OrcLite",
-    "TotalRebalance_&_WolfModel",
     "CombatAnimationOverhaul_2H_ForTotalRebalance"
   ],
-  "authors": ["Zliden", "Jackydima"]
+  "authors": [
+    "Zliden",
+    "Jackydima"
+  ]
 }

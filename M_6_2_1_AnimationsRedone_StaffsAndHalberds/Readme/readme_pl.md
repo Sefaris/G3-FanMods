@@ -1,0 +1,1 @@
+Mod zastępuje szybkie ataki uderzeniami poziomymi z moda AnimationsRedone.

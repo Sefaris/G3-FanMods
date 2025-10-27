@@ -8,5 +8,8 @@
     "TotalRebalance & NewBalance"
   ],
   "incompatibles": [],
-  "authors": ["Zliden","Jackydima"]
+  "authors": [
+    "Zliden",
+    "Jackydima"
+  ]
 }

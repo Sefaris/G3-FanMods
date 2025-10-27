@@ -2,7 +2,11 @@
   "id": "German Text Updates",
   "title": "German Text Updates",
   "category": "Fix",
-  "dependencies": ["UpdatePack_SupportMod"],
+  "dependencies": [
+    "UpdatePack_SupportMod"
+  ],
   "incompatibles": [],
-  "authors": ["Iyumichan"]
+  "authors": [
+    "Iyumichan"
+  ]
 }

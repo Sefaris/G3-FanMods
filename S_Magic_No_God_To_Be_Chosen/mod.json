@@ -6,5 +6,7 @@
   "incompatibles": [
     "TotalRebalance"
   ],
-  "authors": ["WernerTWC"]
+  "authors": [
+    "WernerTWC"
+  ]
 }

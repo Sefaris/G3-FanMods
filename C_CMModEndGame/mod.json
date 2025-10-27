@@ -8,5 +8,8 @@
   "incompatibles": [
     "TotalRebalance"
   ],
-  "authors": ["Joey1990", "Mordrak"]
+  "authors": [
+    "Joey1990",
+    "Mordrak"
+  ]
 }

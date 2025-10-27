@@ -1,0 +1,1 @@
+Dodaje nowe opcje pogody, podobne do kadrów i materiałów z Gothic 1, Gothic Sequel i wstępnej wersji Gothic 3, a także Gothic 2.

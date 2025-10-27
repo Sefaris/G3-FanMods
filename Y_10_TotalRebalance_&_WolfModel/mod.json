@@ -6,9 +6,8 @@
     "TotalRebalance",
     "Wolf Model"
   ],
-  "incompatibles": [
-    "TotalRebalance_&_NewBalance_&_WolfModel",
-    "TotalRebalance & NewBalance"
-  ],
-  "authors": ["Zliden"]
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
 }

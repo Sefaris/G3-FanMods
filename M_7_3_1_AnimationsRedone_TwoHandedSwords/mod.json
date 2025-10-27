@@ -1,0 +1,12 @@
+{
+  "id": "Two Handed Power Jump Attack",
+  "title": "Two Handed Power Jump Attack",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Double Attack",
+  "title": "Double Attack",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "Whirl Attack"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

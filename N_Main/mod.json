@@ -1,7 +1,11 @@
 {
   "id": "Main",
   "title": "Main",
-  "dependencies": [],
+  "dependencies": [
+    "BaseMod"
+  ],
   "incompatibles": [],
-  "authors": ["Zliden"]
+  "authors": [
+    "Zliden"
+  ]
 }

@@ -4,5 +4,7 @@
   "category": "Gameplay",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["Mac Hyder"]
+  "authors": [
+    "Mac Hyder"
+  ]
 }

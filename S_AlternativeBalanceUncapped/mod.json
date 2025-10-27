@@ -4,8 +4,9 @@
   "category": "Balance",
   "dependencies": [],
   "incompatibles": [
-    "Learning Threshold Tweaks",
     "TotalRebalance"
   ],
-  "authors": ["X-Proxy"]
+  "authors": [
+    "X-Proxy"
+  ]
 }

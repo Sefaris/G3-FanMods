@@ -6,5 +6,7 @@
   "incompatibles": [
     "TotalRebalance"
   ],
-  "authors": ["fyryny"]
+  "authors": [
+    "fyryny"
+  ]
 }

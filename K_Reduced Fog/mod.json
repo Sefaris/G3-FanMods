@@ -3,5 +3,7 @@
   "title": "Reduced Fog",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["MadFaTal"]
+  "authors": [
+    "MadFaTal"
+  ]
 }

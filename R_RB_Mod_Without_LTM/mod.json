@@ -1,0 +1,17 @@
+{
+  "id": "RB_Mod_Without_LTM",
+  "title": "RB_Mod_Without_LTM",
+  "category": "Content",
+  "dependencies": [
+    "LivelyTownsMod"
+  ],
+  "incompatibles": [
+    "RB_Mod",
+    "LivelyTownsMod",
+    "Conquest",
+    "Balance Ultimate"
+  ],
+  "authors": [
+    "KapitanArmagedon"
+  ]
+}

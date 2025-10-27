@@ -35,7 +35,10 @@
     "Citizen",
     "Refresh Trade Generated",
     "CombatAnimationOverhaul_2H_ForMain",
-    "Balance Ultimate"
+    "Balance Ultimate",
+    "Alternative Pickpocketing"
   ],
-  "authors": ["Zliden"]
+  "authors": [
+    "Zliden"
+  ]
 }

@@ -4,8 +4,7 @@
   "category": "Gameplay",
   "dependencies": [],
   "incompatibles": [
-    "2H_BlockingAbility",
-    "UpdatePack Combat Fix"
+    "2H_BlockingAbility"
   ],
   "authors": [
     "Jackydima"

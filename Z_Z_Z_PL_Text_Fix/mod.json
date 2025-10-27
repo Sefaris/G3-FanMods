@@ -4,5 +4,7 @@
   "category": "Fixes",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["Sefaris Team"]
+  "authors": [
+    "Sefaris Team"
+  ]
 }

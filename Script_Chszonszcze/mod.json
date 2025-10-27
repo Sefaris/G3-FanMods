@@ -4,5 +4,7 @@
   "category": "Gameplay",
   "dependencies": [],
   "incompatibles": [],
-  "authors": ["fyryny"]
+  "authors": [
+    "fyryny"
+  ]
 }

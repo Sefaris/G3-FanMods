@@ -1,0 +1,1 @@
+Podmienia tekstury orków.
