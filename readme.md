@@ -25,6 +25,18 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![RUS](https://progress-bar.xyz/100?title=RUS)
 ![TRC](https://progress-bar.xyz/12?title=TRC)
 
+### BaseMod
+![ENG](https://progress-bar.xyz/100?title=ENG)
+![ITA](https://progress-bar.xyz/13?title=ITA)
+![FRA](https://progress-bar.xyz/9?title=FRA)
+![GER](https://progress-bar.xyz/99?title=GER)
+![SPA](https://progress-bar.xyz/13?title=SPA)
+![CZE](https://progress-bar.xyz/6?title=CZE)
+![HUN](https://progress-bar.xyz/7?title=HUN)
+![POL](https://progress-bar.xyz/100?title=POL)
+![RUS](https://progress-bar.xyz/100?title=RUS)
+![TRC](https://progress-bar.xyz/7?title=TRC)
+
 ### QP Mini Quests
 ![ENG](https://progress-bar.xyz/100?title=ENG)
 ![ITA](https://progress-bar.xyz/100?title=ITA)
