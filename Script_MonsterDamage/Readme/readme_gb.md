@@ -1,0 +1,1 @@
+This script removes the limitation of monster damage on NPS, set by patch 1.12.

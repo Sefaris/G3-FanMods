@@ -1,0 +1,1 @@
+Mod zastępuje atak wykańczający uderzeniem z moda AnimationsRedone.

@@ -1,0 +1,1 @@
+Teleportuje członków drużyny wraz z graczem po rzuceniu zaklęcia teleportacji.

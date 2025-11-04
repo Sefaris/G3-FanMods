@@ -1,0 +1,1 @@
+Zwiększa czas trwania napisów dla dialogów bez głosu. Czas wyświetlania napisów dla okien dialogowych bez dubbingu można skonfigurować w 'Ini/subtitles.ini'.

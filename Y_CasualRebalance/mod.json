@@ -1,0 +1,26 @@
+{
+  "id": "CasualRebalance",
+  "title": "CasualRebalance",
+  "category": "Balance",
+  "dependencies": [
+    "CM Rebalance",
+    "Intuitive Combat System",
+    "LTM Easy",
+    "Pirate Dream",
+    "Extended Frying",
+    "Consequences",
+    "New Balance and Combat"
+  ],
+  "incompatibles": [
+    "Balance Ultimate",
+    "TotalRebalance",
+    "CNQArenas",
+    "CNQDragons",
+    "Alternative Bonuses",
+    "CNQMagicWeapons",
+    "Balance Ultimate"
+  ],
+  "authors": [
+    "MacHyder"
+  ]
+}

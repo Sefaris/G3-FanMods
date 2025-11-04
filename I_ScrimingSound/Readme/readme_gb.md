@@ -1,0 +1,1 @@
+This modification changes the cries of NPCs that are emitted when receiving a fatal blow.

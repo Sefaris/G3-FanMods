@@ -1,0 +1,1 @@
+New Game Configuration for Player Skills and Items

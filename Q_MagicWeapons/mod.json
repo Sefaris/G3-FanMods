@@ -1,0 +1,14 @@
+{
+  "id": "CNQMagicWeapons",
+  "title": "CNQMagicWeapons",
+  "category": "Gameplay",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [
+    "Balance Ultimate"
+  ],
+  "authors": [
+    "Zliden"
+  ]
+}

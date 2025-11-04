@@ -1,0 +1,13 @@
+{
+  "id": "Old Monster Sound",
+  "title": "Old Monster Sound",
+  "category": "Sounds",
+  "dependencies": [],
+  "incompatibles": [
+    "Better Sound Effects",
+    "Smart Sound Pack"
+  ],
+  "authors": [
+    "xalitus"
+  ]
+}

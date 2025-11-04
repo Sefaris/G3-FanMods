@@ -1,0 +1,2 @@
+Copyright-free streaming on YouTube
+Music that YouTube restricts advertising on your videos due to copyright is replaced by this mod with other suitable music from Gothic 3. In other words, you will not get anything from YouTube for copyright infringement. And the artists parasitizing on the music from our favorite game will not be able to receive income for the views of your streams and videos by viewers.

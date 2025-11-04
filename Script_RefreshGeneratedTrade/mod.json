@@ -1,0 +1,12 @@
+{
+  "id": "Refresh Trade Generated",
+  "title": "Refresh Trade Generated",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": [
+    "fyryny"
+  ]
+}

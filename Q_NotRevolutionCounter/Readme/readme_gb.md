@@ -1,0 +1,1 @@
+A small mod that removes the revolution counter. With this mod, the player will not be pursued for capturing cities.

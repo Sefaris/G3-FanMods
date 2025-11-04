@@ -1,0 +1,1 @@
+Mały mod, który usuwa licznik rewolucji. Dzięki temu modowi gracz nie będzie doświadczał konsekwencji za zdobywanie miast.

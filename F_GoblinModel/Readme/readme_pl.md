@@ -1,0 +1,1 @@
+Ta modyfikacja przywraca wygląd goblinów. Model zbliżony do Gothica 2.

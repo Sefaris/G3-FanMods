@@ -1,0 +1,12 @@
+{
+  "id": "Orc Textur Mod",
+  "title": "Orc Textur Mod",
+  "category": "Textures/Models",
+  "dependencies": [
+    "Orc Mod Lite"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Chilichocolate"
+  ]
+}

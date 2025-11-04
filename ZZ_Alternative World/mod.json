@@ -1,0 +1,12 @@
+{
+  "id": "Alternative World",
+  "title": "Alternative World",
+  "category": "Textures/Models",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Robars"
+  ]
+}

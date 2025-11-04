@@ -1,0 +1,12 @@
+{
+  "id": "Alternative Balance Uncapped",
+  "title": "Alternative Balance Uncapped",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": [
+    "X-Proxy"
+  ]
+}

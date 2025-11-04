@@ -1,0 +1,13 @@
+{
+  "id": "TotalRebalance_&_UnlimitedSummons",
+  "title": "TotalRebalance_&_UnlimitedSummons",
+  "category": "Balance",
+  "dependencies": [
+    "TotalRebalance",
+    "UnlimitedSummons"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "New Magic for NPCs Mod",
+  "title": "New Magic for NPCs Mod",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "2H_BlockingAbility"
+  ],
+  "authors": [
+    "Jackydima"
+  ]
+}

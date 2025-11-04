@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia wygląd prawie wszystkich wilków w grze. Modele pochodzą z gier Risen i Arcania. Nowy wygląd zwykłych wilków, wargów, głodnych wilków i śnieżnych wilków, a także imiennego szarego wilka. Trofea na ścianach również zostały zmienione zgodnie z nowym modelem.

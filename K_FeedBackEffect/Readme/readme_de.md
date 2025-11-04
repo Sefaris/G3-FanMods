@@ -1,0 +1,1 @@
+Diese Mod entfernt den roten/gruenen Rahmen um die Bildschirmraender, wenn man xp verliert oder sich in Monster und Tierwesen verwandelt.

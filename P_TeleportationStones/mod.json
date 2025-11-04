@@ -1,0 +1,12 @@
+{
+  "id": "CNQMoreTeleportationStones",
+  "title": "CNQMoreTeleportationStones",
+  "category": "Gameplay",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

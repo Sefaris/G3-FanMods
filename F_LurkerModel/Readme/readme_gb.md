@@ -1,0 +1,1 @@
+This modification reworks the appearance of the Lurker, the model is taken from Arcania, different textures for normal, sandy and strange Lurkers.

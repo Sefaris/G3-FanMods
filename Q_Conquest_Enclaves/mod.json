@@ -1,0 +1,12 @@
+{
+  "id": "CNQEnclaves",
+  "title": "CNQEnclaves",
+  "category": "Gameplay",
+  "dependencies": [
+    "Conquest"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

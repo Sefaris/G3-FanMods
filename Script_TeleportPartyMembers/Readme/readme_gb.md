@@ -1,0 +1,1 @@
+Teleports party members with player after casting Teleport spell.

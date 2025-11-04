@@ -1,0 +1,17 @@
+{
+  "id": "G3 Retextured Final",
+  "title": "G3 Retextured Final",
+  "category": "Texture packs",
+  "dependencies": [],
+  "incompatibles": [
+    "QP Texture Pack",
+    "PreAlpha",
+    "Myrtana Tekstures Pack",
+    "Autumn Textures",
+    "Smart Texture Pack",
+    "World Texture Mix"
+  ],
+  "authors": [
+    "Redmatix"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "FasterCombatMod",
+  "title": "FasterCombatMod",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "Intuitive Combat System",
+    "CombatAnimationOverhaul_2H",
+    "Animations Redone - Staffs and Halberds",
+    "Animations Redone - Two Handed Swords",
+    "Animations Redone - Dual Wield"
+  ],
+  "authors": [
+    "Draczik"
+  ]
+}

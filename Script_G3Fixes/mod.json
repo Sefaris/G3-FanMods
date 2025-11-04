@@ -1,0 +1,10 @@
+{
+  "id": "G3Fixes",
+  "title": "G3Fixes",
+  "category": "Patches",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "fyryny"
+  ]
+}

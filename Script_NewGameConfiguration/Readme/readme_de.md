@@ -1,0 +1,1 @@
+Mit dieser Mod können Sie die Eigenschaften der Hauptfigur zu Beginn des Spiels anpassen.

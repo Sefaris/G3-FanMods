@@ -1,0 +1,1 @@
+This modification reworks the appearance of scavengers, the model is closer to Gothic 2.

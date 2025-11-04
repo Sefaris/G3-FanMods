@@ -1,0 +1,1 @@
+Diese Modifikation ersetzt die Orkgeraeusche, die beim Nehmen von Schaden und beim Sterben entstehen, durch aehnliche Geraeusche aus Gothic 2.

@@ -1,0 +1,1 @@
+Dieses Skript hebt die Begrenzung des Monsterschadens auf NPC auf, die mit Patch 1.12 eingeführt wurde.

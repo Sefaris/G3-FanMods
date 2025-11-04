@@ -1,0 +1,1 @@
+Mod dodaje mechanikę krwawienia oraz wyświetlanie nałożonych na postacie statusów (krwawienie, trucizna, podpalenie... itp. itd.) przy pasku zdrowia.

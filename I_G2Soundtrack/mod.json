@@ -1,0 +1,13 @@
+{
+  "id": "Music G2",
+  "title": "Music G2",
+  "category": "Music",
+  "dependencies": [],
+  "incompatibles": [
+    "Smart Music Mod",
+    "Smart Music Menu"
+  ],
+  "authors": [
+    "Shader 3"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "Consequences",
+  "title": "Consequences",
+  "category": "Content",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zix-Zax"
+  ]
+}

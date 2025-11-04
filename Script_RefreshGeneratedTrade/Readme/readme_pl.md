@@ -1,0 +1,1 @@
+Wtyczka zmienia sposób generowania ekwipunku handlarzy. Wcześniej były one generowane raz przy pierwszej rozmowie z kupcem. Teraz zapasy handlowe odpowiedniego typu będą aktualizowane raz w tygodniu (raz na 7 dni gry)

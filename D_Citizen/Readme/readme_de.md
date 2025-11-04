@@ -1,0 +1,1 @@
+Diese Modifikation aendert die Fraktion einiger friedlicher Buerger von den Myrtanischen-Staedten (Gastwirte, Schmiede und Jaeger), so dass sie auf eurer Seite gegen Orks kaempfen und nicht umgekehrt.

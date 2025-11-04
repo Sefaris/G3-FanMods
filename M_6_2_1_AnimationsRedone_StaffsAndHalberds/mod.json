@@ -1,0 +1,14 @@
+{
+  "id": "Quick Attack Upward Slash",
+  "title": "Quick Attack Upward Slash",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "Quick Attack Downward Slash",
+    "Quick Attack Stab"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

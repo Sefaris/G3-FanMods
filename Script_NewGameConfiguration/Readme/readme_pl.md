@@ -1,0 +1,1 @@
+Mod pozwala dostosować statystyki głównego bohatera na początku gry.

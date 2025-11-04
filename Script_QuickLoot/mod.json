@@ -1,0 +1,10 @@
+{
+  "id": "Quick Loot",
+  "title": "Quick Loot",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "fyryny"
+  ]
+}

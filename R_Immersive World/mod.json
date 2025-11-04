@@ -1,0 +1,11 @@
+{
+  "id": "Immersive World",
+  "title": "Immersive World",
+  "category": "Content",
+  "dependencies": [
+    "Main",
+    "Extended Frying"
+  ],
+  "incompatibles": [],
+  "authors": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "Animations Redone - Staffs and Halberds",
+  "title": "Animations Redone - Staffs and Halberds",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

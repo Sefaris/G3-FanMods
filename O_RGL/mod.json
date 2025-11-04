@@ -1,0 +1,13 @@
+{
+  "id": "RGL",
+  "title": "RGL",
+  "category": "Story",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Suleiman",
+    "Killer-m"
+  ]
+}

@@ -1,0 +1,1 @@
+Shows Value / MaxValue of HP, MP, SP on respective bars.

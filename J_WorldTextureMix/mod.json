@@ -1,0 +1,17 @@
+{
+  "id": "World Texture Mix",
+  "title": "World Texture Mix",
+  "category": "Texture packs",
+  "dependencies": [],
+  "incompatibles": [
+    "QP Texture Pack",
+    "PreAlpha",
+    "Myrtana Tekstures Pack",
+    "Autumn Textures",
+    "Smart Texture Pack",
+    "G3 Retextured Final"
+  ],
+  "authors": [
+    "Hoxel"
+  ]
+}

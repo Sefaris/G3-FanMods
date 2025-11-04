@@ -1,0 +1,12 @@
+{
+  "id": "TameAnimal",
+  "title": "TameAnimal",
+  "category": "Gameplay",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

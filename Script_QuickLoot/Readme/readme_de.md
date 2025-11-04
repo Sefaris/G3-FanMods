@@ -1,0 +1,1 @@
+Verbesserte Quickloot-Funktion (schnelles Einsammeln von Gegenständen). Es ist möglich, Autoloot und Quickloot mit gedrückter Maustaste durchzuführen. Damit die neue Quickloot-Funktion funktioniert, müssen durch das Update Pack in den Starter-Einstellungen die Quickloot-Funktion deaktiviert werden.

@@ -1,0 +1,14 @@
+{
+  "id": "Normal Stab Attacks",
+  "title": "Normal Stab Attacks",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "Normal Downward Slash Attacks",
+    "Normal Horizontal Slash Attacks"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

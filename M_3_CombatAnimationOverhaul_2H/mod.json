@@ -1,0 +1,13 @@
+{
+  "id": "CombatAnimationOverhaul_2H",
+  "title": "CombatAnimationOverhaul_2H",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "Animations Redone - Two Handed Swords"
+  ],
+  "authors": [
+    "Beorn33"
+  ]
+}

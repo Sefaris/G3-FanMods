@@ -1,0 +1,1 @@
+Das Plugin ändert die Art und Weise, wie generierte Inventare funktionieren. Bisher wurden sie einmal bei der ersten Konversation mit einem Händler generiert. Jetzt werden die Handelsvorräte der entsprechenden Typen einmal pro Woche aktualisiert (einmal alle 7 Spieltage)

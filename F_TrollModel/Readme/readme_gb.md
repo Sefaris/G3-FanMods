@@ -1,0 +1,1 @@
+This modification reworks the appearance of trolls and black trolls. Models are closer to Gothic 2.

@@ -1,0 +1,1 @@
+The mod adds bleeding mechanics and displays statuses applied to characters (bleeding, poison, burning, etc.) next to the health bar.

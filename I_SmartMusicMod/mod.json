@@ -1,0 +1,12 @@
+{
+  "id": "Smart Music Mod",
+  "title": "Smart Music Mod",
+  "category": "Music",
+  "dependencies": [],
+  "incompatibles": [
+    "Music G2"
+  ],
+  "authors": [
+    "Mac Hyder"
+  ]
+}

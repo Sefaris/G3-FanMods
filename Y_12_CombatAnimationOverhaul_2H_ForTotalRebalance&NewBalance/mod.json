@@ -1,0 +1,14 @@
+{
+  "id": "CombatAnimationOverhaul_TR&NB",
+  "title": "CombatAnimationOverhaul_TR&NB",
+  "category": "Gameplay",
+  "dependencies": [
+    "CombatAnimationOverhaul_2H",
+    "TotalRebalance & NewBalance"
+  ],
+  "incompatibles": [
+    "CombatAnimationOverhaul_2H_ForMain",
+    "CombatAnimationOverhaul_ForTR"
+  ],
+  "authors": []
+}

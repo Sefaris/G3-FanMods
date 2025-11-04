@@ -1,0 +1,14 @@
+{
+  "id": "UnlimitedSummons",
+  "title": "UnlimitedSummons",
+  "category": "Gameplay",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [
+    "Balance Ultimate"
+  ],
+  "authors": [
+    "Zliden"
+  ]
+}

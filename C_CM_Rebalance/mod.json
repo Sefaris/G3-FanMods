@@ -1,0 +1,13 @@
+{
+  "id": "CM Rebalance",
+  "title": "CM Rebalance",
+  "category": "Balance",
+  "dependencies": [
+    "CM Content"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Joey1990",
+    "Mordrak"
+  ]
+}

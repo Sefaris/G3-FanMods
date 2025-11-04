@@ -1,0 +1,13 @@
+{
+  "id": "Citizen",
+  "title": "Citizen",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": [
+    "Zix-Zax",
+    " Zliden"
+  ]
+}

@@ -1,0 +1,1 @@
+Increases the duration of subtitles for unvoiced dialogues. The duration of subtitles for unvoiced dialogues can be configured in the 'Ini/subtitles.ini' file.

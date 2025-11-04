@@ -1,0 +1,1 @@
+The mod fixes some bugs and logical errors in the game as of its version v1.75, and also transforms the existing content and adds several quests with voice acting.

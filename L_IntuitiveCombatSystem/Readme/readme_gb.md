@@ -1,0 +1,1 @@
+This modification changes the animations of melee weapon strikes. All animations of the same strike type take the same amount of time to swing.

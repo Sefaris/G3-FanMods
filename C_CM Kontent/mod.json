@@ -1,0 +1,14 @@
+{
+  "id": "CM Content",
+  "title": "CM Content",
+  "category": "Content",
+  "dependencies": [
+    "CM Graphic Arcania",
+    "CM Graphic G2"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Joey1990",
+    "Mordrak"
+  ]
+}

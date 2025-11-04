@@ -1,0 +1,17 @@
+{
+  "id": "Myrtana Tekstures Pack",
+  "title": "Myrtana Tekstures Pack",
+  "category": "Texture packs",
+  "dependencies": [],
+  "incompatibles": [
+    "QP Texture Pack",
+    "PreAlpha",
+    "Autumn Textures",
+    "Smart Texture Pack",
+    "World Texture Mix",
+    "G3 Retextured Final"
+  ],
+  "authors": [
+    "CST"
+  ]
+}

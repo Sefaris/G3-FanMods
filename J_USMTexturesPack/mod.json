@@ -1,0 +1,17 @@
+{
+  "id": "Smart Texture Pack",
+  "title": "Smart Texture Pack",
+  "category": "Texture packs",
+  "dependencies": [],
+  "incompatibles": [
+    "QP Texture Pack",
+    "PreAlpha",
+    "Myrtana Tekstures Pack",
+    "Autumn Textures",
+    "World Texture Mix",
+    "G3 Retextured Final"
+  ],
+  "authors": [
+    "Mac Hyder"
+  ]
+}

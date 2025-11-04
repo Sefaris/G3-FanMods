@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia wygląd pełzaczy. Zmieniono normalne pełzacze i pełzacze wojowników. Modele są zbliżone do Gothic 2.

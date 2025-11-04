@@ -1,0 +1,1 @@
+This modification makes all dialog windows completely transparent. Compatible with any interface modification except MenuUpdated, MenuUltimate and ImmersiveWorld.

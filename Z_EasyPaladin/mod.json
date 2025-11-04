@@ -1,0 +1,14 @@
+{
+  "id": "CNQEasyPaladin",
+  "title": "CNQEasyPaladin",
+  "category": "Balance",
+  "dependencies": [
+    "ContentModBase"
+  ],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": [
+    "Zliden"
+  ]
+}

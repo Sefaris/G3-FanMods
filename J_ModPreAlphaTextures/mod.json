@@ -1,0 +1,16 @@
+{
+  "id": "PreAlpha",
+  "title": "PreAlpha",
+  "category": "Texture packs",
+  "dependencies": [],
+  "incompatibles": [
+    "QP Texture Pack",
+    "Myrtana Tekstures Pack",
+    "Smart Texture Pack",
+    "World Texture Mix",
+    "G3 Retextured Final"
+  ],
+  "authors": [
+    "xRAZORx"
+  ]
+}

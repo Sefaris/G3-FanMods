@@ -1,0 +1,14 @@
+{
+  "id": "Power Stab Attack",
+  "title": "Power Stab Attack",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod",
+    "Power Jump Attack",
+    "Power Slash Attack"
+  ],
+  "authors": [
+    "Timor1234"
+  ]
+}

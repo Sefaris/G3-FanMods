@@ -1,0 +1,1 @@
+Das Plugin fügt mehr mögliche Arten des Bratens von Fleisch für das Lagerfeuer hinzu.

@@ -1,0 +1,1 @@
+Improved Quickloot feature (quick item collection). There is an option to autoloot and quickloot with the mouse button pressed. For the new quickloot to work, you need to disable quickloot from the Update Pack in the starter settings.

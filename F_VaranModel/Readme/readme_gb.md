@@ -1,0 +1,1 @@
+This modification reworks the appearance of lizards and fire lizards, the model is closer to Gothic 2.

@@ -1,0 +1,12 @@
+{
+  "id": "Magic No God To Be Chosen",
+  "title": "Magic No God To Be Chosen",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [
+    "TotalRebalance"
+  ],
+  "authors": [
+    "WernerTWC"
+  ]
+}

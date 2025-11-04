@@ -1,0 +1,1 @@
+Mapa w grze z przedmiotami i innymi przydatnymi rzeczami. Więcej informacji i screeny w folderze wtyczki.

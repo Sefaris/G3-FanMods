@@ -1,0 +1,1 @@
+After a player sleeps on a bed, 8 hours must pass before they can sleep again.

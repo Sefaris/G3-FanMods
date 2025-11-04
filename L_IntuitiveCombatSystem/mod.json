@@ -1,0 +1,12 @@
+{
+  "id": "Intuitive Combat System",
+  "title": "Intuitive Combat System",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [
+    "FasterCombatMod"
+  ],
+  "authors": [
+    "Mac Hyder"
+  ]
+}

@@ -1,0 +1,1 @@
+This modification reworks the appearance of boars, the model is taken from Risen. Trophies on the walls are also changed with the new model.

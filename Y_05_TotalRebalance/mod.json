@@ -1,0 +1,44 @@
+{
+  "id": "TotalRebalance",
+  "title": "TotalRebalance",
+  "category": "Balance",
+  "dependencies": [
+    "CM Rebalance",
+    "CNQDragons",
+    "ContentModBase",
+    "CM Graphic Arcania",
+    "CM Graphic G2",
+    "CM Content",
+    "Quest Edit",
+    "TameAnimal",
+    "CNQMagicWeapons",
+    "Main",
+    "Immersive World",
+    "LivelyTownsMod",
+    "G3Fixes",
+    "Pirate Dream",
+    "Knight Chronicle",
+    "New Game Configuration",
+    "Conquest",
+    "RGL",
+    "Monster Damage",
+    "Immersive Cook",
+    "TRLimitedStatues"
+  ],
+  "incompatibles": [
+    "CM End Game",
+    "Alternative Balance Uncapped",
+    "Magic No God To Be Chosen",
+    "LTMSmeltingMod",
+    "CNQEasyPaladin",
+    "LTM Easy",
+    "Citizen",
+    "Refresh Trade Generated",
+    "CombatAnimationOverhaul_2H_ForMain",
+    "Balance Ultimate",
+    "Alternative Pickpocketing"
+  ],
+  "authors": [
+    "Zliden"
+  ]
+}

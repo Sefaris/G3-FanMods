@@ -1,0 +1,15 @@
+{
+  "id": "TotalRebalance & ShieldRebalance",
+  "title": "TotalRebalance & ShieldRebalance",
+  "category": "Balance",
+  "dependencies": [
+    "ShieldRebalance",
+    "TotalRebalance",
+    "EnchantStones"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden",
+    "Zipperiusz"
+  ]
+}

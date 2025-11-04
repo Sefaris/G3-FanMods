@@ -1,0 +1,10 @@
+{
+  "id": "LearnPoints",
+  "title": "LearnPoints",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "George"
+  ]
+}

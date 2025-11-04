@@ -1,0 +1,35 @@
+{
+  "id": "Balance Ultimate",
+  "title": "Balance Ultimate",
+  "category": "Balance",
+  "dependencies": [
+    "Orc Mod Lite",
+    "LivelyTownsMod",
+    "LTM_NPC",
+    "LTM Easy",
+    "LearnPoints",
+    "CM Content",
+    "Main",
+    "G3Fixes",
+    "New Game Configuration",
+    "Immersive World",
+    "Knight Chronicle",
+    "Consequences",
+    "CNQDragons",
+    "Extended Frying",
+    "Quick Loot",
+    "Refresh Trade Generated",
+    "New Balance and Combat",
+    "Animals Hardcore Mod",
+    "Subtitles",
+    "QuestFix Mod",
+    "ItemLocator",
+    "Teleport Party Members"
+  ],
+  "incompatibles": [
+    "CNQMagicWeapons"
+  ],
+  "authors": [
+    "iLoveHeavyMetal"
+  ]
+}

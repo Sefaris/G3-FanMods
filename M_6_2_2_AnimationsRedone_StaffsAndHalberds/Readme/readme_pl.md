@@ -1,0 +1,1 @@
+Mod zastępuje szybkie ataki pionowymi uderzeniami z moda AnimationsRedone.

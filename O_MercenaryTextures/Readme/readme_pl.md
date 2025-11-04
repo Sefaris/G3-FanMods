@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia tekstury wszystkich pancerzy orkowych najemników, zastępując niebieski kolor czarnym.

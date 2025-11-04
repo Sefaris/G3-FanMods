@@ -1,0 +1,1 @@
+Ulepszono funkcję Quickloot (szybkie zbieranie przedmiotów). Możliwy jest autoloot i quickloot z przytrzymanym przyciskiem myszy. Aby nowy quickloot działał, musisz wyłączyć quickloot z update packa w ustawieniach g3ini.

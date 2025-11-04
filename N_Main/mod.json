@@ -1,0 +1,11 @@
+{
+  "id": "Main",
+  "title": "Main",
+  "dependencies": [
+    "BaseMod"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

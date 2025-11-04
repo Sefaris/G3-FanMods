@@ -1,0 +1,12 @@
+{
+  "id": "Smart Music Menu",
+  "title": "Smart Music Menu",
+  "category": "Music",
+  "dependencies": [],
+  "incompatibles": [
+    "Music G2"
+  ],
+  "authors": [
+    "Mac Hyder"
+  ]
+}

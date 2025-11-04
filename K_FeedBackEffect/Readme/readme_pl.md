@@ -1,0 +1,1 @@
+Ten mod usuwa czerwoną ramkę wokół krawędzi ekranu, gdy tracisz HP lub zamieniasz się w potwory i zwierzęta.

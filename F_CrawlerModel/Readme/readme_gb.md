@@ -1,0 +1,1 @@
+This modification reworks the appearance of crawlers. Regular crawlers and Crawler warriors have been changed. The models are closer to Gothic 2.

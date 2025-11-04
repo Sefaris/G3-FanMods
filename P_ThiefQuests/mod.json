@@ -1,0 +1,12 @@
+{
+  "id": "CNQThiefQuests",
+  "title": "CNQThiefQuests",
+  "category": "Story",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

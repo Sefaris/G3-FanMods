@@ -1,0 +1,16 @@
+{
+  "id": "QP Texture Pack",
+  "title": "QP Texture Pack",
+  "category": "World Texture Packs",
+  "dependencies": [],
+  "incompatibles": [
+    "PreAlpha",
+    "Myrtana Tekstures Pack",
+    "Smart Texture Pack",
+    "World Texture Mix",
+    "G3 Retextured Final"
+  ],
+  "authors": [
+    "Humanforce"
+  ]
+}

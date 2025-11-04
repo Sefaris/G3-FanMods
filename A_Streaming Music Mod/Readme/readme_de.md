@@ -1,0 +1,2 @@
+Urheberrechtsfreie YouTube-Streams
+Musik, bei der YouTube die Anzeige von Werbung aufgrund des Urheberrechts einschränkt, wird durch diese Mod durch andere geeignete Musik aus Gothic 3 ersetzt. Mit anderen Worten: YouTube wird Sie nicht für Urheberrechtsverletzungen belasten. Und die Interpreten, die von der Musik unseres Lieblingsspiels schmarotzen, werden nicht in der Lage sein, für die Zuschauer, die Ihre Streams und Videos ansehen, Einnahmen zu erzielen.

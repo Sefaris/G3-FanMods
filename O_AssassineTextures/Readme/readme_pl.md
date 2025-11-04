@@ -1,0 +1,1 @@
+Ta modyfikacja zmienia tekstury wszystkich ubrań asasynów, zmieniając kolor fioletowy na żółty.

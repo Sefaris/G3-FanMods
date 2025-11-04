@@ -1,0 +1,12 @@
+{
+  "id": "CNQDragons",
+  "title": "CNQDragons",
+  "category": "Content",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

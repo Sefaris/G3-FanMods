@@ -1,0 +1,10 @@
+{
+  "id": "StatBarValues",
+  "title": "StatBarValues",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "fyryny"
+  ]
+}

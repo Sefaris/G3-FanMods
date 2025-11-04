@@ -1,0 +1,12 @@
+{
+  "id": "CNQLeadership",
+  "title": "CNQLeadership",
+  "category": "Gameplay",
+  "dependencies": [
+    "Main"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

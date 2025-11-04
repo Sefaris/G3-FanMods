@@ -1,0 +1,1 @@
+Mit dieser Modifikation wird das Aussehen der Schattenlaeufer neu gestaltet, wobei die Modelle naeher an Gothic 2 angelehnt sind.

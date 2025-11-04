@@ -1,0 +1,24 @@
+{
+  "id": "Menu Updated ForNewSkills",
+  "title": "Menu Updated ForNewSkills",
+  "category": "Interface",
+  "dependencies": [
+    "Menu Updated"
+  ],
+  "incompatibles": [
+    "Menu Elder",
+    "Menu CM",
+    "Menu Arcania",
+    "Menu Dark",
+    "Menu Old",
+    "Menu QP",
+    "Compas Returning",
+    "Clear Dialog Box",
+    "Immersive World Updated MenuDark",
+    "Immersive World Updated MenuOld",
+    "Night Theme"
+  ],
+  "authors": [
+    "Mechanic"
+  ]
+}

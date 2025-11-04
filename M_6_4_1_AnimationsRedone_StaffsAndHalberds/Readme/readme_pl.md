@@ -1,0 +1,1 @@
+Mod zastępuje atak wykańczający pionowym uderzeniem z moda AnimationsRedone.

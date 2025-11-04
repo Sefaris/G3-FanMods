@@ -1,0 +1,1 @@
+Mod zastępuje atak okrężny serią uderzeń z moda AnimationsRedone.

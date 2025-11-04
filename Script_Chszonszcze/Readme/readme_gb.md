@@ -1,0 +1,1 @@
+Killing meatbugs, snakes, rabbits and lizards by stepping on them.

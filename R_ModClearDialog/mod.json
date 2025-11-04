@@ -1,0 +1,16 @@
+{
+  "id": "Clear Dialog Box",
+  "title": "Clear Dialog Box",
+  "category": "Interface",
+  "dependencies": [],
+  "incompatibles": [
+    "Menu Updated",
+    "Menu Ultimate",
+    "Compas Returning 2",
+    "Night Theme"
+  ],
+  "authors": [
+    "Joey1990",
+    "Mordrak"
+  ]
+}
