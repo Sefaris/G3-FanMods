@@ -23,7 +23,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/12?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### BaseMod
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -47,7 +47,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### ContentModBase
 ![ENG](https://progress-bar.xyz/99?title=ENG)
@@ -59,7 +59,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/99?title=HUN)
 ![POL](https://progress-bar.xyz/99?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/41?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CM Animal & Mushroom Retexture
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -83,7 +83,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Orc Mod Lite
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -95,7 +95,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Orc Mod Full
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -107,7 +107,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/83?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/17?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### UpdatePack_SupportMod
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -215,7 +215,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/7?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Main
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -227,7 +227,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/61?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Consequences
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -239,7 +239,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CNQLeadership
 ![ENG](https://progress-bar.xyz/96?title=ENG)
@@ -251,7 +251,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/0?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### LivelyTownsMod
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -263,7 +263,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Pirate Dream
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -275,7 +275,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### RGL
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -287,7 +287,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### LTMSmeltingMod
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -299,7 +299,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### TameAnimal
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -311,7 +311,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/96?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/98?title=TRC)
 
 ### LTMTeleportNPCMod
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -323,7 +323,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### UnlimitedSummons
 ![ENG](https://progress-bar.xyz/15?title=ENG)
@@ -347,7 +347,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CNQDragons
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -359,7 +359,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/99?title=TRC)
 
 ### CNQMoreTeleportationStones
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -371,7 +371,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/9?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CNQThiefQuests
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -383,7 +383,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Conquest
 ![ENG](https://progress-bar.xyz/35?title=ENG)
@@ -395,7 +395,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/0?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CNQMagicWeapons
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -407,7 +407,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/97?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/29?title=TRC)
+![TRC](https://progress-bar.xyz/98?title=TRC)
 
 ### Knight Chronicle
 ![ENG](https://progress-bar.xyz/98?title=ENG)
@@ -419,7 +419,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/62?title=HUN)
 ![POL](https://progress-bar.xyz/98?title=POL)
 ![RUS](https://progress-bar.xyz/98?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/63?title=TRC)
 
 ### Immersive World
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -431,7 +431,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/99?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/82?title=TRC)
 
 ### Immersive Cook
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -479,7 +479,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### TRLimitedStatues
 ![ENG](https://progress-bar.xyz/20?title=ENG)
@@ -527,7 +527,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/74?title=TRC)
+![TRC](https://progress-bar.xyz/93?title=TRC)
 
 ### Alternative Pickpocketing
 ![ENG](https://progress-bar.xyz/100?title=ENG)
@@ -575,7 +575,7 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![HUN](https://progress-bar.xyz/82?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/5?title=TRC)
+![TRC](https://progress-bar.xyz/55?title=TRC)
 
 ### TotalRebalance
 ![ENG](https://progress-bar.xyz/61?title=ENG)
