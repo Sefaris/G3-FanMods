@@ -266,6 +266,8 @@ export function copyStringtablesToRepository(USDirPath, RepositoryDirPath) {
   }); 
 }
 
+
+
 export function copyModIniToRepository(USDirPath, RepositoryDirPath){
   const modsFilesPath = fs.readdirSync(USDirPath);
   modsFilesPath.forEach(dir => {

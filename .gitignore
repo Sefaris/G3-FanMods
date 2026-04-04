@@ -6,3 +6,4 @@
 *.txt
 ModName.ini
 subtitles.ini
+__pycache__
