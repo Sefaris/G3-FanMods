@@ -398,16 +398,16 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CNQMagicWeapons
-![ENG](https://progress-bar.xyz/100?title=ENG)
+![ENG](https://progress-bar.xyz/0?title=ENG)
 ![ITA](https://progress-bar.xyz/0?title=ITA)
 ![FRA](https://progress-bar.xyz/0?title=FRA)
 ![GER](https://progress-bar.xyz/100?title=GER)
 ![SPA](https://progress-bar.xyz/0?title=SPA)
 ![CZE](https://progress-bar.xyz/0?title=CZE)
-![HUN](https://progress-bar.xyz/100?title=HUN)
+![HUN](https://progress-bar.xyz/0?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/100?title=TRC)
+![TRC](https://progress-bar.xyz/0?title=TRC)
 
 ### Knight Chronicle
 ![ENG](https://progress-bar.xyz/98?title=ENG)
@@ -553,6 +553,18 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![RUS](https://progress-bar.xyz/100?title=RUS)
 ![TRC](https://progress-bar.xyz/100?title=TRC)
 
+### New Balance and Combat
+![ENG](https://progress-bar.xyz/0?title=ENG)
+![ITA](https://progress-bar.xyz/0?title=ITA)
+![FRA](https://progress-bar.xyz/0?title=FRA)
+![GER](https://progress-bar.xyz/0?title=GER)
+![SPA](https://progress-bar.xyz/0?title=SPA)
+![CZE](https://progress-bar.xyz/0?title=CZE)
+![HUN](https://progress-bar.xyz/0?title=HUN)
+![POL](https://progress-bar.xyz/0?title=POL)
+![RUS](https://progress-bar.xyz/0?title=RUS)
+![TRC](https://progress-bar.xyz/0?title=TRC)
+
 ### New Magic for NPCs Mod
 ![ENG](https://progress-bar.xyz/100?title=ENG)
 ![ITA](https://progress-bar.xyz/100?title=ITA)
@@ -566,28 +578,28 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Balance Ultimate
-![ENG](https://progress-bar.xyz/83?title=ENG)
-![ITA](https://progress-bar.xyz/6?title=ITA)
-![FRA](https://progress-bar.xyz/4?title=FRA)
+![ENG](https://progress-bar.xyz/100?title=ENG)
+![ITA](https://progress-bar.xyz/0?title=ITA)
+![FRA](https://progress-bar.xyz/0?title=FRA)
 ![GER](https://progress-bar.xyz/100?title=GER)
-![SPA](https://progress-bar.xyz/6?title=SPA)
-![CZE](https://progress-bar.xyz/6?title=CZE)
-![HUN](https://progress-bar.xyz/82?title=HUN)
+![SPA](https://progress-bar.xyz/0?title=SPA)
+![CZE](https://progress-bar.xyz/0?title=CZE)
+![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/55?title=TRC)
+![TRC](https://progress-bar.xyz/0?title=TRC)
 
 ### TotalRebalance
-![ENG](https://progress-bar.xyz/61?title=ENG)
-![ITA](https://progress-bar.xyz/39?title=ITA)
-![FRA](https://progress-bar.xyz/38?title=FRA)
-![GER](https://progress-bar.xyz/99?title=GER)
-![SPA](https://progress-bar.xyz/39?title=SPA)
-![CZE](https://progress-bar.xyz/38?title=CZE)
-![HUN](https://progress-bar.xyz/38?title=HUN)
+![ENG](https://progress-bar.xyz/0?title=ENG)
+![ITA](https://progress-bar.xyz/0?title=ITA)
+![FRA](https://progress-bar.xyz/0?title=FRA)
+![GER](https://progress-bar.xyz/100?title=GER)
+![SPA](https://progress-bar.xyz/0?title=SPA)
+![CZE](https://progress-bar.xyz/0?title=CZE)
+![HUN](https://progress-bar.xyz/0?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/38?title=TRC)
+![TRC](https://progress-bar.xyz/0?title=TRC)
 
 ### TotalRebalance & ShieldRebalance
 ![ENG](https://progress-bar.xyz/0?title=ENG)
