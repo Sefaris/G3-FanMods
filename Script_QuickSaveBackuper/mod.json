@@ -1,0 +1,10 @@
+{
+  "id": "QuickSaveBackuper",
+  "title": "Quick Save Backuper",
+  "category": "Balance",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "fyryny"
+  ]
+}

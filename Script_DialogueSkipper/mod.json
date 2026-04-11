@@ -1,0 +1,10 @@
+{
+  "id": "DialogueSkipper",
+  "title": "DialogueSkipper",
+  "category": "Gameplay",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "Qantax"
+  ]
+}

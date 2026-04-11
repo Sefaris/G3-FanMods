@@ -1,11 +1,10 @@
 {
-  "id": "ItemMap",
-  "title": "ItemMap",
+  "id": "ScriptsMenu",
+  "title": "Scripts Menu",
   "category": "Interface",
   "dependencies": [],
   "incompatibles": [],
   "authors": [
-    "fyryny",
-    "Qantax"
+    "fyryny"
   ]
 }
