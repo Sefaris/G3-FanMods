@@ -4,7 +4,7 @@ Mod, który jest bazą do instalacji kolejnych modów. Sam w sobie dodaje niekt�
 Zmiany:
 - Rebalans modów.
 - Zmieniony asortyment niektórych kupców i łup z niektórych potworów..
-- Zwiększono barierę Vengarda, magiczne płyty, port i posąg Innosa w świątyni LTM..
+- Zwiększono barierę na około Vengard, magiczne płyty, port i posąg Innosa w świątyni LTM..
 - Zmiana łóżek w całej Myrtanie.
 - Na początku gry wszyscy towarzysze są w Ardei.
 - Postać o imieniu Tristan. Bez moda Konsekwencje nie będzie z nim dialogów.
