@@ -1,0 +1,1 @@
+DialogueSkipper is a small plugin for Gothic 3 that let you skip NPC dialogue faster using a hotkey (by default right mouse button) and optionally remove subtitle and dialogue menu fade animations. If you pick any key other than RMB, then to make skipping work you must hold the chosen key and press right mouse button at the same time.

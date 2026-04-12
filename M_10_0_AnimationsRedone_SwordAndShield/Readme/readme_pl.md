@@ -1,0 +1,1 @@
+Zestaw nowych animacji dla tarcz i mieczy. Każda animacja została całkowicie przerobiona lub starannie poprawiona, aby była bardziej płynna, responsywna i naturalna w porównaniu z oryginałami. Te zmiany obejmują cały zestaw ruchów mieczem i tarczą: ataki, przemieszczanie się, potknięcia i upadki.

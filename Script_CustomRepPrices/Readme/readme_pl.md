@@ -1,0 +1,1 @@
+Skrypt do konfiguracji wymagań dotyczących reputacji dla zbroi i hełmów za pomocą pliku ini

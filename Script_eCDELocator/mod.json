@@ -2,7 +2,9 @@
   "id": "ItemLocator",
   "title": "ItemLocator",
   "category": "Interface",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

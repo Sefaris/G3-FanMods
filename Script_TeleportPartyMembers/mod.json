@@ -2,7 +2,9 @@
   "id": "Teleport Party Members",
   "title": "Teleport Party Members",
   "category": "Gameplay",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

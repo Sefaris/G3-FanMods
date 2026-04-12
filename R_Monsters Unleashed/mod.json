@@ -1,0 +1,13 @@
+{
+  "id": "Monsters Unleashed",
+  "title": "Monsters Unleashed",
+  "category": "Animations",
+  "dependencies": [],
+  "incompatibles": [
+    "CombatAnimationOverhaul_2H"
+  ],
+  "authors": [
+    "Волчий Нож",
+    "Jackydima"
+  ]
+}

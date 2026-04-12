@@ -2,7 +2,9 @@
   "id": "QuickSaveBackuper",
   "title": "Quick Save Backuper",
   "category": "Balance",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

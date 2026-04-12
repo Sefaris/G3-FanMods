@@ -2,7 +2,9 @@
   "id": "ItemMap",
   "title": "ItemMap",
   "category": "Interface",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny",

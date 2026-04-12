@@ -2,7 +2,9 @@
   "id": "LearningThresholdTweaks",
   "title": "LearningThresholdTweaks",
   "category": "Balance",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

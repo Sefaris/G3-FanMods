@@ -2,7 +2,9 @@
   "id": "G3Fixes",
   "title": "G3Fixes",
   "category": "Patches",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

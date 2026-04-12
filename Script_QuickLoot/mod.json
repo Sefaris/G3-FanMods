@@ -2,7 +2,9 @@
   "id": "Quick Loot",
   "title": "Quick Loot",
   "category": "Gameplay",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

@@ -1,0 +1,1 @@
+Przy tworzeniu szybkiego zapisu tworzone są backupy poprzednio stworzonych. Maksymalna ilość kopii zdefiniowana jest w pliku ini.

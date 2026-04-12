@@ -1,0 +1,13 @@
+{
+  "id": "Rapier Style",
+  "title": "Rapier Style",
+  "category": "Animations",
+  "dependencies": [
+    "Statuses"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Волчий Нож",
+    "Jackydima"
+  ]
+}

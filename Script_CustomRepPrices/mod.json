@@ -1,0 +1,10 @@
+{
+  "id": "CustomRepPrices",
+  "title": "CustomRepPrices",
+  "category": "Patches",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "FyryNy"
+  ]
+}

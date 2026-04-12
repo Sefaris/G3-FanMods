@@ -1,0 +1,10 @@
+{
+  "id": "Autosave",
+  "title": "Autosave",
+  "category": "Patches",
+  "dependencies": [],
+  "incompatibles": [],
+  "authors": [
+    "LostSaenna"
+  ]
+}

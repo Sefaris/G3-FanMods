@@ -2,7 +2,9 @@
   "id": "TimeMultiplier",
   "title": "TimeMultiplier",
   "category": "Gameplay",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

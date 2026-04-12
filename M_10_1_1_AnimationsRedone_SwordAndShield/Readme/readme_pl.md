@@ -1,0 +1,1 @@
+Zmienia ostatni atak w serii zwykłych ciosów. Zamiast ciosu z obrotem postać wykonuje zamachowy cios.

@@ -2,7 +2,9 @@
   "id": "Floating Damage",
   "title": "Floating Damage",
   "category": "Interface",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

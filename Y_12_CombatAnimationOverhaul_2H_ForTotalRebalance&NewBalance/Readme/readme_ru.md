@@ -1,1 +1,0 @@
-Адаптация мода Combat Animation Overhaul 2H для мода TotalRebalance&NewBalance

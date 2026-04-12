@@ -2,7 +2,9 @@
   "id": "StatBarValues",
   "title": "StatBarValues",
   "category": "Interface",
-  "dependencies": [],
+  "dependencies": [
+    "Scripts Menu"
+  ],
   "incompatibles": [],
   "authors": [
     "fyryny"

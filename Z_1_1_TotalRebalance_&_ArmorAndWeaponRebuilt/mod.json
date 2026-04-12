@@ -1,0 +1,13 @@
+{
+  "id": "TR&ArmorAndWeaponRebuilt",
+  "title": "TR&ArmorAndWeaponRebuilt",
+  "category": "Textures/Models",
+  "dependencies": [
+    "TotalRebalance",
+    "Armor And Weapon Rebuilt"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Zliden"
+  ]
+}

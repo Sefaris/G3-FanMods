@@ -1,0 +1,12 @@
+{
+  "id": "New Magic for NPCs Mod",
+  "title": "New Magic for NPCs Mod",
+  "category": "Gameplay",
+  "dependencies": [
+    "New Balance and Combat"
+  ],
+  "incompatibles": [],
+  "authors": [
+    "Jackydima"
+  ]
+}

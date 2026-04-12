@@ -1,0 +1,1 @@
+Nowe animacje dla łuków i kuszy. Ulepszono obsługę łuku i kuszy podczas biegu i skradania się. Dodano zupełnie nowe animacje sprintu dla broni dystansowej, a także przerobioną animację strzelania, która stała się bardziej płynna i naturalna niż dotychczas. 

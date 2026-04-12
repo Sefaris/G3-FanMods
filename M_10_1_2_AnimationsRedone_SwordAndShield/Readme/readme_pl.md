@@ -1,0 +1,1 @@
+Zmienia pierwszy atak w serii zwykłych ciosów. Zamiast uderzenia z wyskoku postać wykonuje zamach.
