@@ -386,16 +386,16 @@ Install [Rainbow CSV plugin](https://marketplace.visualstudio.com/items?itemName
 ![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### CNQMagicWeapons
-![ENG](https://progress-bar.xyz/0?title=ENG)
+![ENG](https://progress-bar.xyz/100?title=ENG)
 ![ITA](https://progress-bar.xyz/0?title=ITA)
 ![FRA](https://progress-bar.xyz/0?title=FRA)
 ![GER](https://progress-bar.xyz/100?title=GER)
 ![SPA](https://progress-bar.xyz/0?title=SPA)
 ![CZE](https://progress-bar.xyz/0?title=CZE)
-![HUN](https://progress-bar.xyz/0?title=HUN)
+![HUN](https://progress-bar.xyz/100?title=HUN)
 ![POL](https://progress-bar.xyz/100?title=POL)
 ![RUS](https://progress-bar.xyz/100?title=RUS)
-![TRC](https://progress-bar.xyz/0?title=TRC)
+![TRC](https://progress-bar.xyz/100?title=TRC)
 
 ### Knight Chronicle
 ![ENG](https://progress-bar.xyz/100?title=ENG)
