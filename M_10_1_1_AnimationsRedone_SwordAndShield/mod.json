@@ -2,7 +2,9 @@
   "id": "Last Attack (Slash Down)",
   "title": "Last Attack (Slash Down)",
   "category": "Animations",
-  "dependencies": [],
+  "dependencies": [
+    "Animations Redone - Sword And Shield"
+  ],
   "incompatibles": [],
   "authors": [
     "Timor1234"

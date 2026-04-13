@@ -7,8 +7,6 @@
     "Main"
   ],
   "incompatibles": [
-    "CombatAnimationOverhaul_2H_ForTotalRebalance",
-    "CombatAnimationOverhaul_2H_ForTotalRebalance&NewBalance",
     "TotalRebalance"
   ],
   "authors": []

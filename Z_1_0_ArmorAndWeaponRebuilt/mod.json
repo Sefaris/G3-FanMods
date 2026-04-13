@@ -6,7 +6,9 @@
     "LivelyTownsMod",
     "ContentModBase"
   ],
-  "incompatibles": ["CM Citizen Textures"],
+  "incompatibles": [
+    "CM Citizen Textures"
+  ],
   "authors": [
     "Justman2001"
   ]

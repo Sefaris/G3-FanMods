@@ -5,7 +5,9 @@
   "dependencies": [
     "ContentModBase"
   ],
-  "incompatibles": [],
+  "incompatibles": [
+    "Armor And Weapon Rebuilt"
+  ],
   "authors": [
     "Joey1990",
     "Mordrak"

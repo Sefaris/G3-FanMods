@@ -3,7 +3,12 @@
   "title": "Balance Ultimate",
   "category": "Balance",
   "dependencies": [
-    "Orc Mod Lite",
+    "ICS Classic Camera",
+    "Intuitive Combat System",
+    "AutoSave",
+    "Script_CustomRepPrices",
+    "Alternative Pickpocketing",
+    "Monster Damage",
     "LivelyTownsMod",
     "LTM_NPC",
     "LTM Easy",
@@ -12,6 +17,7 @@
     "Main",
     "G3Fixes",
     "New Game Configuration",
+    "CM Letters",
     "Immersive World",
     "Knight Chronicle",
     "Consequences",
@@ -20,14 +26,15 @@
     "Quick Loot",
     "Refresh Trade Generated",
     "New Balance and Combat",
-    "Animals Hardcore Mod",
+    "New Magic for NPCs Mod",
     "Subtitles",
     "QuestFix Mod",
     "ItemLocator",
     "Teleport Party Members"
   ],
   "incompatibles": [
-    "CNQMagicWeapons"
+    "CNQMagicWeapons",
+    "2H_BlockingAbility"
   ],
   "authors": [
     "iLoveHeavyMetal"

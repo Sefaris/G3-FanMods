@@ -3,7 +3,8 @@
   "title": "Statuses",
   "category": "Balance",
   "dependencies": [
-    "New Balance and Combat"
+    "New Balance and Combat",
+    "G3Fixes"
   ],
   "incompatibles": [],
   "authors": [

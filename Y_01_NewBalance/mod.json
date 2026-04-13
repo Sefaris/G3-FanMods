@@ -3,7 +3,10 @@
   "title": "New Balance and Combat",
   "category": "Gameplay",
   "dependencies": [],
-  "incompatibles": [],
+  "incompatibles": [
+    "UpdatePack Combat Fix",
+    "2H_BlockingAbility"
+  ],
   "authors": [
     "Jackydima"
   ]

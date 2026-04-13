@@ -5,7 +5,10 @@
   "dependencies": [
     "New Balance and Combat"
   ],
-  "incompatibles": [],
+  "incompatibles": [
+    "UpdatePack Combat Fix",
+    "2H_BlockingAbility"
+  ],
   "authors": [
     "Jackydima"
   ]

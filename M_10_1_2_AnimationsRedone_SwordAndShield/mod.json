@@ -2,7 +2,9 @@
   "id": "First Attack (Horizontal Slash)",
   "title": "First Attack (Horizontal Slash)",
   "category": "Animations",
-  "dependencies": [],
+  "dependencies": [
+    "Animations Redone - Sword And Shield"
+  ],
   "incompatibles": [],
   "authors": [
     "Timor1234"

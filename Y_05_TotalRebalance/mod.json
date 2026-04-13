@@ -23,7 +23,10 @@
     "RGL",
     "Monster Damage",
     "Immersive Cook",
-    "TRLimitedStatues"
+    "TRLimitedStatues",
+    "Alternative Pickpocketing",
+    "New Balance and Combat",
+    "New Magic for NPCs Mod"
   ],
   "incompatibles": [
     "CM End Game",
@@ -36,7 +39,9 @@
     "Refresh Trade Generated",
     "CombatAnimationOverhaul_2H_ForMain",
     "Balance Ultimate",
-    "Alternative Pickpocketing"
+    "DRAGONS REWARDS",
+    "Finishing Stab Attack",
+    "Finishing Downward Slash Attack"
   ],
   "authors": [
     "Zliden"
