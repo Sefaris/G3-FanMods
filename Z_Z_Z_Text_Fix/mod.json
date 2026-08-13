@@ -1,6 +1,6 @@
 {
-  "id": "PL_Text_Fix",
-  "title": "Polish text fix",
+  "id": "Text_Fix",
+  "title": "Text Fix",
   "category": "Patches",
   "dependencies": [],
   "incompatibles": [],
