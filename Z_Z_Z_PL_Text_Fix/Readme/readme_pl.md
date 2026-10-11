@@ -1,1 +1,0 @@
-Poprawki dla polskiej wersji językowej.
