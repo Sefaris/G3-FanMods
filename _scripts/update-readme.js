@@ -14,6 +14,19 @@ const languages = {
     9: "TRC",
 }
 
+const languagePlaceholders = {
+    ENG: new Set(['[ENG]', '[EN]', 'ENG', 'EN']),
+    ITA: new Set(['[ITA]', '[IT]', 'ITA', 'IT']),
+    FRA: new Set(['[FRA]', '[FR]', 'FRA', 'FR']),
+    GER: new Set(['[GER]', '[DEU]', '[DE]', 'GER', 'DEU', 'DE']),
+    SPA: new Set(['[SPA]', '[ESP]', '[ES]', 'SPA', 'ESP', 'ES']),
+    CZE: new Set(['[CZE]', '[CZ]', 'CZE', 'CZ']),
+    HUN: new Set(['[HUN]', '[HU]', 'HUN', 'HU']),
+    POL: new Set(['[POL]', '[PL]', 'POL', 'PL']),
+    RUS: new Set(['[RUS]', '[RU]', 'RUS', 'RU']),
+    TRC: new Set(['[TRC]', '[ZH]', 'TRC', 'ZH']),
+};
+
 const STRINGTABLE = 'stringtable.ini';
 const MOD = 'mod.json';
 const readmePath = path.join('readme.md');
@@ -68,8 +81,11 @@ function getTranslationProgress(mods) {
     mods.forEach(mod => {
         const stringtable = fs.readFileSync(mod.stringtable, 'utf16le');
         const modJson = fs.readFileSync(mod.mod, 'utf8');
-        const lines = stringtable.split('\r\n');
-        const filteredLines = lines.filter(line => line.includes('='));
+        const lines = stringtable.split(/\r?\n/);
+        const filteredLines = lines.filter(line => {
+            const trimmed = line.trimStart();
+            return line.includes('=') && !trimmed.startsWith('#') && !trimmed.startsWith(';');
+        });
         const progress = calculateTranslationProgress(filteredLines);
         progresses.push({ mod: getModName(modJson), progress: progress.progress });
     })
@@ -85,13 +101,13 @@ function calculateTranslationProgress(stringtableContent) {
     let totalLines = stringtableContent.length;
     let translatedLines = Array(10).fill(0);
     stringtableContent.forEach(line => {
-        const key = line.split('=')[0];
-        const translations = line.split('=')[1].split(';');
+        const translations = line.slice(line.indexOf('=') + 1).split(';');
         if (translations.length !== 20) {
             return;
         }
         for (const [langIndex, langName] of Object.entries(languages)) {
-            if (translations[langIndex * 2].length !== 0 && translations[langIndex * 2] !== `[${langName}]` && translations[langIndex * 2] !== '-') {
+            const value = translations[langIndex * 2].trim();
+            if (value.length !== 0 && value !== '-' && !languagePlaceholders[langName].has(value)) {
                 translatedLines[langIndex]++;
             }
         }
