@@ -1,6 +1,7 @@
 {
   "id": "Main",
   "title": "Main",
+  "category": "Content",
   "dependencies": [
     "BaseMod"
   ],
